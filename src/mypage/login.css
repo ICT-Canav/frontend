@@ -71,10 +71,10 @@
 /* 회원가입 오른쪽 위 작은 회원가입 */
 .signup {
     position: absolute;
-    width: 2.89%;
+    width: 5%;
     height: 1.81%; 
-    left: 85.31%;
-    top: 5.42%; 
+    left: 85%;
+    top: 4.1%; 
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-style: normal;
     font-weight: 400;
