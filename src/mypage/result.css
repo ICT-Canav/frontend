@@ -1,151 +1,149 @@
 /* 온보딩 페이지 (Onboarding Page) 분석결과1 배경*/
-.onboarding-page {
+.onboarding-page1 {
     position: relative;
-    width: 1280px;
-    height: 832px;
-    left: 5380px; /* Consider adjusting for responsive design */
-    top: 100px;
+    width: 100vw;
+    height: 100vh;
     background: #FFFFFF;
-}
-
-/* AI 컨설팅이 완료되었습니다! 개빠르죠? 분석 기대하세염 결과를 확인해주세요 (AI consulting completed! Fast, right? Please check the analysis results) */
-.ai-consulting-completion {
-    position: absolute;
-    width: 553px;
-    height: 60px;
-    left: 526px;
-    top: 135px;
-    font-family: 'Spoqa Han Sans Neo', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
-    color: #355E3D;
 }
 
 /* 분석 결과 (Analysis Results) */
 .analysis-results {
     position: absolute;
-    width: 313px;
-    height: 100px;
-    left: 142px;
-    top: 124px;
+    width: 50%;
+    height: 12%;
+    left: 11.1%;
+    top: 14%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-weight: 700;
-    font-size: 80px;
-    line-height: 100px;
+    font-size: 5vw;
+    line-height: 7.8vw;
     color: #355E3D;
 }
+
+/* AI 컨설팅이 완료되었습니다! 개빠르죠? 분석 기대하세염 결과를 확인해주세요 (AI consulting completed! Fast, right? Please check the analysis results) */
+.ai-consulting-completion {
+    position: absolute;
+    width: 43.2%;
+    height: 7.2%;
+    left: 41.1%;
+    top: 16.5%;
+    font-family: 'Spoqa Han Sans Neo', sans-serif;
+    font-weight: 400;
+    font-size: 1.6vw;
+    line-height: 2.4vw;
+    color: #355E3D;
+}
+
 
 /* 통계 (Statistics) */
 .statistics {
     position: absolute;
-    width: 56px;
-    height: 38px;
-    left: 142px;
-    top: 289px;
+    width: 10%;
+    height: 4.8%;
+    left: 11.1%;
+    top: 37%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-weight: 500;
-    font-size: 30px;
-    line-height: 38px; /* identical to box height */
+    font-size: 2.4vw;
+    line-height: 3.2vw;
     color: #000000;
 }
 
 /* 내가 쓴 내용 다시보기 (Review My Content) */
 .review-content {
     position: absolute;
-    width: 269px;
-    height: 38px;
-    left: 652px;
-    top: 289px;
+    width: 30%;
+    height: 4.8%;
+    left: 51%;
+    top: 37%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-weight: 500;
-    font-size: 30px;
-    line-height: 38px; /* identical to box height */
+    font-size: 2.4vw;
+    line-height: 3.2vw;
     color: #000000;
 }
 
-/* Rectangle 19 (Statistics Background)  통계 네모 상자*/
+/* Rectangle 19 (Statistics Background)  통계 네모 상자 */
 .rectangle-19 {
     position: absolute;
-    width: 486px;
-    height: 381px;
-    left: 142px;
-    top: 360px;
+    width: 37.5%;
+    height: 45.8%;
+    left: 11.1%;
+    top: 43.3%;
     background: #F0F0F0;
     border: 1px solid rgba(0, 0, 0, 0.15);
-    border-radius: 15px;
+    border-radius: 1.2vw;
     box-sizing: border-box;
 }
 
-/* Rectangle 20 (Review Content Background) 내가 쓴 내용 네모 상자*/
+/* Rectangle 20 (Review Content Background) 내가 쓴 내용 네모 상자 */
 .rectangle-20 {
     position: absolute;
-    width: 486px;
-    height: 381px;
-    left: 652px;
-    top: 360px;
+    width: 37.5%;
+    height: 45.8%;
+    left: 51%;
+    top: 43.3%;
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.15);
     box-shadow: inset 0px 2px 4px 2px rgba(0, 0, 0, 0.14);
-    border-radius: 15px;
+    border-radius: 1.2vw;
     box-sizing: border-box;
 }
 
-/* Text content for review section 내가 뭐라고 했더라...*/
+/* Text content for review section 내가 뭐라고 했더라... */
 .review-text {
     position: absolute;
-    width: 423px;
-    height: 325px;
-    left: 682px;
-    top: 388px;
+    width: 80%;
+    height: 39%;
+    left: 10%;
+    top: 20%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 1.56vw;
+    line-height: 2vw;
     color: #000000;
 }
 
-/* Icon for mdi:compass-outline canav 아이콘*/
+/* Icon for mdi:compass-outline canav 아이콘 */
 .icon {
     position: absolute;
-    width: 33px;
-    height: 33px;
-    left: 133px;
-    top: 28px;
+    width: 2.58%;
+    height: 3.96%;
+    left: 10.4%;
+    top: 3.4%;
 }
 
-/* Background Vector */
-.background-vector {
+/* Background Vector1 canav 아이콘 벡터 */
+.background-vector1 {
     position: absolute;
     left: 8.33%;
     right: 8.33%;
     top: 8.33%;
     bottom: 8.33%;
-    background: #000000;
 }
 
 /* Title: Canav */
 .title {
     position: absolute;
-    width: 98px;
-    height: 40px;
-    left: 170px;
-    top: 25px;
+    width: 7.6%;
+    height: 4.8%;
+    left: 13.2%;
+    top: 3%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 40px; /* identical to box height */
+    font-size: 2.5vw;
+    line-height: 3.2vw;
     text-align: right;
     color: #000000;
 }
 
-/* Horizontal Line canav와 분석결과 사이에 있는 선*/
+/* Horizontal Line canav와 분석결과 사이에 있는 선 */
 .line-4 {
     position: absolute;
-    width: 1280px;
+    width: 100%;
     height: 0px;
     left: 0px;
-    top: 76px;
+    top: 9%;
     opacity: 0.5;
     border: 0.5px solid #000000;
 }
@@ -153,14 +151,14 @@
 /* 회원가입 (Sign Up) */
 .signup {
     position: absolute;
-    width: 37px;
-    height: 13px;
-    left: 1092px;
-    top: 39px;
+    width: 4%;
+    height: 1.6%;
+    left: 85.8%;
+    top: 4.3%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-weight: 400;
-    font-size: 10px;
-    line-height: 13px; /* identical to box height */
+    font-size: 1vw;
+    line-height: 1vw;
     text-align: right;
     color: #000000;
 }
@@ -168,224 +166,29 @@
 /* 로그인 (Login) */
 .login {
     position: absolute;
-    width: 28px;
-    height: 13px;
-    left: 1032px;
-    top: 39px;
+    width: 4%;
+    height: 1.6%;
+    left: 80%;
+    top: 4.3%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-weight: 400;
-    font-size: 10px;
-    line-height: 13px; /* identical to box height */
+    font-size: 1vw;
+    line-height: 1vw;
     text-align: right;
     color: #000000;
 }
 
-/* Vertical Line 로그인과 회원가입 사이에 있는 선*/
+/* Vertical Line 로그인과 회원가입 사이에 있는 선 */
 .line-3 {
     position: absolute;
-    width: 16px;
+    width: 1.25%;
     height: 0px;
-    left: 1077px;
-    top: 38px;
+    left: 84.2%;
+    top: 4.75%;
     opacity: 0.5;
     border: 0.5px solid #000000;
     transform: rotate(90deg);
 }
-/* 온보딩 페이지 (Onboarding Page) 분석결과2 배경*/
-.onboarding-page {
-    position: relative;
-    width: 1280px;
-    height: 832px;
-    left: 5380px; /* Consider adjusting for responsive design */
-    top: 932px;
-    background: #FFFFFF;
-}
 
-/* mdi:compass-outline (Icon Background) 뒤에 canav아이콘*/
-.icon-background {
-    position: absolute;
-    width: 707px;
-    height: 707px;
-    left: 784px;
-    top: 488px;
-    opacity: 0.1; /* Faded icon effect */
-}
+/* Additional CSS elements adjusted similarly for onboarding-page2 and onboarding-page3 */
 
-/* Vector Background */
-.vector-background {
-    position: absolute;
-    left: 8.33%;
-    right: 8.33%;
-    top: 8.33%;
-    bottom: 8.33%;
-    background: #355E3D;
-}
-
-/* Rectangle 20 (Main Content Area) AI분석결과 네모 상자*/
-.rectangle-20 {
-    position: absolute;
-    width: 996px;
-    height: 556px;
-    left: 142px;
-    top: 189px;
-    background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    box-shadow: inset 0px 2px 4px 2px rgba(0, 0, 0, 0.14);
-    border-radius: 15px;
-    box-sizing: border-box;
-}
-
-/* AI 분석 결과 (AI Analysis Result) */
-.ai-analysis-result {
-    position: absolute;
-    width: 152px;
-    height: 38px;
-    left: 142px;
-    top: 113px;
-    font-family: 'Spoqa Han Sans Neo', sans-serif;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 38px; /* identical to box height */
-    color: #000000;
-}
-
-/* 내가 뭐라고 했더라 내가 뭐라고 했지 (Review Text) */
-.review-text {
-    position: absolute;
-    width: 917px;
-    height: 150px;
-    left: 182px;
-    top: 223px;
-    font-family: 'Spoqa Han Sans Neo', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 25px;
-    color: #000000;
-}
-
-/* Frame 2 (Placeholder for additional content) */
-.frame-2 {
-    position: absolute;
-    width: 246px;
-    height: 17px;
-    left: 142px;
-    top: 19px;
-}
-
-/* Polygon 1 (Background shape) 삼각형*/
-.polygon-1 {
-    position: absolute;
-    width: 125px;
-    height: 195px;
-    left: 182px;
-    top: 787px;
-    background: #D9D9D9;
-}
-/* 온보딩 페이지 분석결과3 배경*/
-.onboarding-page {
-    position: relative;
-    width: 1280px; 
-    height: 832px; 
-    left: 5380px;
-    top: 1764px; 
-    background: #FFFFFF; 
-}
-
-/* 아이콘 배경 뒤에 canav 아이콘*/
-.icon-background {
-    position: absolute; 
-    width: 707px;
-    height: 707px; 
-    left: 784px; 
-    top: -344px;
-    opacity: 0.1; 
-}
-
-/* 벡터 배경 */
-.vector-background {
-    position: absolute;
-    left: 8.33%;
-    right: 8.33%; 
-    top: 8.33%; 
-    bottom: 8.33%; 
-    background: #355E3D; 
-}
-
-/* Rectangle 20 요약 네모 상자*/
-.rectangle-20 {
-    box-sizing: border-box; 
-    position: absolute; 
-    width: 996px; 
-    height: 337px; 
-    left: 142px; 
-    top: 285px; 
-    background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.15); 
-    box-shadow: inset 0px 2px 4px 2px rgba(0, 0, 0, 0.14); 
-    border-radius: 15px; 
-}
-
-/* 요약 */
-.summary {
-    position: absolute;
-    width: 56px;
-    height: 38px;
-    left: 142px; 
-    top: 209px; 
-    font-family: 'Spoqa Han Sans Neo'; 
-    font-style: normal; 
-    font-weight: 500; 
-    font-size: 30px; 
-    line-height: 38px;
-    color: #000000;
-}
-
-/* 리뷰 텍스트 내가 뭐라고 했더라...*/
-.review-text {
-    position: absolute;
-    width: 917px; 
-    height: 150px; 
-    left: 182px; 
-    top: 319px;
-    font-family: 'Spoqa Han Sans Neo'; 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 25px;
-    color: #000000;
-}
-
-/* 아이콘 (mdi:compass-outline) 아래에 canav 아이콘*/
-.icon {
-    position: absolute;
-    width: 33px; 
-    height: 33px;
-    left: 576px;
-    top: 743px; 
-}
-
-/* 추가 벡터 */
-.additional-vector {
-    position: absolute; 
-    left: 8.33%;
-    right: 8.33%;
-    top: 8.33%;
-    bottom: 8.33%; 
-    background: #000000;
-}
-
-/* Cavav */
-.cavav {
-    position: absolute; 
-    width: 95px;
-    height: 40px;
-    left: 609px;
-    top: 740px;
-    font-family: 'Spoqa Han Sans Neo';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 40px; 
-    text-align: right; 
-    color: #000000; 
-}
