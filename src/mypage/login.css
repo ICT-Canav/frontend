@@ -21,14 +21,14 @@
 /* 로그인 */
 .login-title {
     position: absolute;
-    width: 10.78%;
+    width: 20%;
     height: 8.75%;
-    left: 44.61%;
-    top: 18.33%;
+    left: 43.4%;
+    top: 22%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 6.94%;
+    font-size: 4vw;
     line-height: 8.75%;
     color: #FFFFFF;
 }
@@ -58,11 +58,11 @@
     width: 7.66%;
     height: 5.56%; 
     left: 13.28%; 
-    top: 3.47%; 
+    top: 6%; 
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 4.44%;
+    font-size: 2.5vw;
     line-height: 5.56%; 
     text-align: right;
     color: #000000;
@@ -78,8 +78,8 @@
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.39%;
-    line-height: 1.81%; 
+    font-size: 1vw;
+    line-height: 1vw; 
     text-align: right;
     color: #000000;
 }
@@ -87,15 +87,15 @@
 /* 로그인 오른쪽 위 작은 로그인 */
 .login-link {
     position: absolute;
-    width: 2.19%;
+    width: 4%;
     height: 1.81%;
-    left: 80.63%; 
-    top: 5.42%;
+    left: 80%; 
+    top: 4.1%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.39%; 
-    line-height: 1.81%;
+    font-size: 1vw; 
+    line-height: 1vw;
     text-align: right;
     color: #000000;
 }
@@ -127,7 +127,7 @@
 .rectangle-25 {
     position: absolute;
     width: 42.58%;
-    height: 63.89%; 
+    height: 50%; 
     left: 28.67%; 
     top: 37.78%; 
     background: #FFFFFF;
@@ -138,14 +138,14 @@
 /* 아이디 */
 .id-label {
     position: absolute;
-    width: 3.28%;
+    width: 10%;
     height: 2.64%;
-    left: 34.69%; 
-    top: 46.25%;
+    left: 19%; 
+    top: 17%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 2.08%;
+    font-weight: 700;
+    font-size: 1vw;
     line-height: 2.64%; 
     color: #355E3D;
 }
@@ -154,10 +154,10 @@
 .input-box {
     box-sizing: border-box;
     position: absolute;
-    width: 30.55%; 
-    height: 6.67%;
-    left: 34.69%;
-    top: 50%; 
+    width: 70%; 
+    height: 12%;
+    left: 16.4%;
+    top: 22%; 
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.15);
     box-shadow: inset 0px 2px 4px 2px rgba(0, 0, 0, 0.05);
@@ -167,14 +167,14 @@
 /* 아이디를 입력해 주세요 */
 .input-placeholder {
     position: absolute;
-    width: 11.33%; 
+    width: 80%; 
     height: 2.64%; 
-    left: 35.86%; 
-    top: 51.94%;
+    left: 4%; 
+    top: 50%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 2.08%;
+    font-size: 0.75vw;
     line-height: 2.64%; 
     color: #929292;
 }
@@ -182,14 +182,14 @@
 /* 비밀번호 */
 .password-label {
     position: absolute;
-    width: 4.38%; 
+    width: 10%; 
     height: 2.64%;
-    left: 34.69%;
-    top: 60.28%;
+    left: 19%;
+    top: 40.28%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 2.08%;
+    font-weight: 700;
+    font-size: 1vw;
     line-height: 2.64%; 
     color: #355E3D;
 }
@@ -198,10 +198,10 @@
 .password-box {
     box-sizing: border-box;
     position: absolute;
-    width: 30.55%;
-    height: 6.67%;
-    left: 34.69%; 
-    top: 64.03%; 
+    width: 70%;
+    height: 12%;
+    left: 16.4%; 
+    top: 47.03%; 
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.15);
     box-shadow: inset 0px 2px 4px 2px rgba(0, 0, 0, 0.05);
@@ -211,14 +211,14 @@
 /* 비밀번호를 입력해 주세요 */
 .password-placeholder {
     position: absolute;
-    width: 12.42%;
+    width: 80%;
     height: 2.64%;
-    left: 35.86%; 
-    top: 65.97%;
+    left: 4%; 
+    top: 50%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 2.08%; 
+    font-size: 0.75vw; 
     line-height: 2.64%; 
     color: #929292;
 }
@@ -228,12 +228,12 @@
     position: absolute;
     width: 15.16%;
     height: 2.64%; 
-    left: 42.42%; 
+    left: 42.7%; 
     top: 30%; 
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-style: normal;
     font-weight: 100;
-    font-size: 2.08%;
+    font-size: 1vw;
     line-height: 2.64%;
     color: #FFFFFF;
 }
@@ -241,10 +241,10 @@
 /* Rectangle 28 로그인 버튼 */
 .login-button {
     position: absolute;
-    width: 30.55%; 
+    width: 50%; 
     height: 8.33%;
-    left: 34.69%;
-    top: 75.14%;
+    left: 25%;
+    top: 70%;
     background: #355E3D;
     border-radius: 4.17%; 
 }
@@ -252,14 +252,14 @@
 /* 로그인 버튼 텍스트 */
 .login-button-text {
     position: absolute;
-    width: 5.86%;
+    width: 50%;
     height: 3.33%; 
-    left: 47.03%;
-    top: 77.64%;
+    left: 26%;
+    top: 55%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 2.5%; 
+    font-size: 1vw; 
     line-height: 3.19%; 
     text-align: center;
     color: #FFFFFF;
@@ -269,10 +269,10 @@
 .signup-button {
     box-sizing: border-box;
     position: absolute;
-    width: 30.55%; 
+    width: 50%; 
     height: 8.33%; 
-    left: 34.69%;
-    top: 84.58%; 
+    left: 25%;
+    top: 80%; 
     background: #FFFFFF;
     border: 1px solid #355E3D;
     border-radius: 4.17%; 
@@ -281,14 +281,14 @@
 /* 회원가입 버튼 텍스트 */
 .signup-button-text {
     position: absolute;
-    width: 5.86%; 
+    width: 50%; 
     height: 3.33%;
-    left: 47.03%;
-    top: 87.08%; 
+    left: 26%;
+    top: 56.5%; 
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 2.5%; 
+    font-size: 1vw; 
     line-height: 3.19%;
     text-align: center;
     color: #355E3D;

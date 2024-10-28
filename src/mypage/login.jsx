@@ -1,5 +1,5 @@
 import React from 'react';
-import './OnboardingPage.css';
+import './login.css';
 
 function OnboardingPage() {
   return (
@@ -23,13 +23,13 @@ function OnboardingPage() {
       {/* 가로선 */}
       <div className="line-4" />
 
-      {/* 로그인 컨테이너 */}
-      <div className="rectangle-25">
-        <div className="login-title">로그인</div>
+      <div className="login-title">로그인</div>
         
-        {/* 환영 메시지 */}
-        <div className="welcome-message">Canav에 오신 것을 환영합니다!</div>
+      {/* 환영 메시지 */}
+      <div className="welcome-message">Canav에 오신 것을 환영합니다!</div>
 
+      <div className="rectangle-25">
+        
         {/* 아이디 입력 */}
         <label className="id-label">아이디</label>
         <div className="input-box">
