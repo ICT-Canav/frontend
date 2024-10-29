@@ -1,7 +1,7 @@
 import React from 'react';
 import './login.css';
 
-function OnboardingPage() {
+const OnboardingPage=()=> {
   return (
     <div className="onboarding-page-2">
       {/* 초록색 배경 */}
