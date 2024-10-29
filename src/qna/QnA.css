@@ -1,13 +1,8 @@
-/*1-1페이지*/
-page {
-  width:0vw;
-  height:0vh;
-}
 /* 온보딩 페이지 */
 .onboarding-page-1 {
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   left: 50%;
   transform: translateX(-50%);
   background: #FFFFFF;
@@ -16,17 +11,17 @@ page {
 /* Group 7 */
 .group-7 {
   position: absolute;
-  width: 100%;
-  height: 101.68%; /* 846px -> 832px 기준 */
+  width: 100vw;
+  height: 100vh; /* 846px -> 832px 기준 */
   left: 0;
-  top: -1.68%; /* -14px -> 832px 기준 */
+  top: 0; /* -14px -> 832px 기준 */
 }
 
 /* Rectangle 14 */
 .rectangle-1 {
   position: absolute;
-  width: 100%;
-  height: 14.42%; /* 120px -> 832px 기준 */
+  width: 100vw;
+  height: 100vh; /* 120px -> 832px 기준 */
   left: 0;
   top: 85.58%; /* 712px -> 832px 기준 */
   background: linear-gradient(180deg, #355E3D 0%, rgba(53, 94, 61, 0.8) 49%, rgba(53, 94, 61, 0) 100%);
@@ -35,8 +30,8 @@ page {
 /* Rectangle 15 */
 .rectangle-2 {
   position: absolute;
-  width: 100%;
-  height: 87.26%; /* 726px -> 832px 기준 */
+  width: 100vw;
+  height: 100vh; /* 726px -> 832px 기준 */
   left: 0;
   top: -1.68%; /* -14px -> 832px 기준 */
   background: #355E3D;
@@ -65,16 +60,6 @@ page {
   left: 55.23%; /* 707px -> 1280px 기준 */
   top: 29.09%; /* 242px -> 832px 기준 */
   opacity: 0.2;
-}
-
-/* Vector */
-.vector1 {
-  position: absolute;
-  left: 8.33%;
-  right: 8.33%;
-  top: 8.33%;
-  bottom: 8.33%;
-  background: #FFFFFF;
 }
 
 /* AI 입시 컨설팅 설명 */

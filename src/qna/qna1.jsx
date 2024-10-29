@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './qna.css'; // CSS 파일 불러오기
+import '../index.css';
 
 function App() {
   // 입력된 답변을 저장할 상태
@@ -17,22 +18,19 @@ function App() {
   };
 
   return (
-    <div className="page">
+    <html>
       {/* 첫 번째 온보딩 페이지 */}
       <div className="onboarding-page-1">
-        <div className="group-7">
-          <div className="rectangle-1"></div>
-          <div className="rectangle-2"></div>
-          <div className="title1">청소년을 위한 AI 입시 컨설팅</div>
-          <div className="compass-icon1"></div>
-          <div className="vector1"></div>
-          <div className="description1">AI 입시 컨설팅 설명</div>
-          <div className="vector2"></div>
-          <div className="signup2">회원가입</div>
-          <div className="login2">로그인</div>
-          <div className="line-1"></div>
-          <div className="line-2"></div>
-        </div>
+        <div className="rectangle-2"></div> {/*그라데이션추가*/}
+        <div className="title1">청소년을 위한 AI 입시 컨설팅</div>
+        <div className="compass-icon1"></div>
+        <div className="vector1"></div>
+        <div className="description1">AI 입시 컨설팅 설명</div>
+        <div className="vector2"></div>
+        <div className="signup2">회원가입</div>
+        <div className="login2">로그인</div>
+        <div className="line-1"></div>
+        <div className="line-2"></div>
       </div>
 
       {/* 질문 페이지 */}
@@ -66,7 +64,7 @@ function App() {
           <div className="submit-text1">제출하기</div>
         </div>
       </div>
-    </div>
+    </html>
   );
 }
 
