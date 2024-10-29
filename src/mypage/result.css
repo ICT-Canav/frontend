@@ -40,10 +40,10 @@
     position: absolute;
     width: 10%;
     height: 4.8%;
-    left: 11.1%;
-    top: 37%;
+    left: 12.1%;
+    top: 36%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 2.4vw;
     line-height: 3.2vw;
     color: #000000;
@@ -54,10 +54,10 @@
     position: absolute;
     width: 30%;
     height: 4.8%;
-    left: 51%;
-    top: 37%;
+    left: 52%;
+    top: 36%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 2.4vw;
     line-height: 3.2vw;
     color: #000000;
@@ -91,12 +91,12 @@
 }
 
 /* Text content for review section 내가 뭐라고 했더라... */
-.review-text {
+.review-text1 {
     position: absolute;
-    width: 80%;
+    width: 40%;
     height: 39%;
-    left: 10%;
-    top: 20%;
+    left: 54%;
+    top: 50%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-weight: 400;
     font-size: 1.56vw;
@@ -190,5 +190,196 @@
     transform: rotate(90deg);
 }
 
-/* Additional CSS elements adjusted similarly for onboarding-page2 and onboarding-page3 */
+/* 온보딩 페이지 (Onboarding Page) 분석결과2 배경 */
+.onboarding-page2 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;  
+    background: #FFFFFF;
+}
 
+/* mdi:compass-outline (Icon Background) 뒤에 canav아이콘 */
+.icon-background {
+    position: absolute;
+    width: 55.23%;
+    height: 84.97%;
+    left: 61.25%;
+    top: 58.65%;
+    opacity: 0.1; 
+}
+
+/* Vector2 Background 배경? */
+.vector2-background {
+    position: absolute;
+    left: 8.33%;
+    right: 8.33%;
+    top: 8.33%;
+    bottom: 8.33%;
+    background: #ffffff;
+}
+
+/* Rectangle 21 (Main Content Area) AI분석결과 네모 상자 */
+.rectangle-21 {
+    position: absolute;
+    width: 77%;
+    height: 60%;
+    left: 11%;
+    top: 22.72%;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0px 2px 4px 2px rgba(0, 0, 0, 0.14);
+    border-radius: 1.17%;
+    box-sizing: border-box;
+}
+
+/* AI 분석 결과 (AI Analysis Result) */
+.ai-analysis-result {
+    position: absolute;
+    width: 50%;
+    height: 4.57%;
+    left: 15%;
+    top: 12%;
+    font-family: 'Spoqa Han Sans Neo', sans-serif;
+    font-weight: 600;
+    font-size: 4vw;
+    line-height: 3.2vw; 
+    color: #000000;
+}
+
+/* 내가 뭐라고 했더라 내가 뭐라고 했지 (Review Text2) */
+.review-text2 {
+    position: absolute;
+    width: 71.64%;
+    height: 18.03%;
+    left: 4%;
+    top: 5%;
+    font-family: 'Spoqa Han Sans Neo', sans-serif;
+    font-weight: 400;
+    font-size: 1.4vw;
+    line-height: 3.2vw; 
+    color: #000000;
+}
+
+/* Frame 2 (Placeholder for additional content) */
+.frame-2 {
+    position: absolute;
+    width: 19.22%;
+    height: 2.04%;
+    left: 11.09%;
+    top: 2.28%;
+}
+
+/* Polygon 1 (Background shape) 삼각형 */
+.polygon-1 {
+    position: absolute;
+    width: 9.77%;
+    height: 23.44%;
+    left: 14.22%;
+    top: 94.62%;
+    background: #D9D9D9;
+}
+
+/* 온보딩 페이지 분석결과3 배경 */
+.onboarding-page3 {
+    position: relative;
+    width: 100vw; 
+    height: 100vh;
+    background: #FFFFFF; 
+}
+
+/* 아이콘 배경 뒤에 canav 아이콘 */
+.icon-background {
+    position: absolute; 
+    width: 55.23%;
+    height: 84.97%; 
+    left: 61.25%; 
+    top: -41.35%;
+    opacity: 0.1; 
+}
+
+/* 벡터 배경 요약 큰 초록색 canav 아이콘 벡터 */
+.vector3-background {
+    position: absolute;
+    left: 8.33%;
+    right: 8.33%; 
+    top: 8.33%; 
+    bottom: 8.33%; 
+    background: #ffffff; 
+}
+
+/* Rectangle 22 요약 네모 상자 */
+.rectangle-22 {
+    position: absolute;
+    width: 77%;
+    height: 60%;
+    left: 11%;
+    top: 22.72%;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0px 2px 4px 2px rgba(0, 0, 0, 0.14);
+    border-radius: 1.17%;
+    box-sizing: border-box;
+}
+
+/* 요약 */
+.summary {
+    position: absolute;
+    width: 50%;
+    height: 4.57%;
+    left: 15%;
+    top: 12%;
+    font-family: 'Spoqa Han Sans Neo', sans-serif;
+    font-weight: 600;
+    font-size: 4vw;
+    line-height: 3.2vw; 
+    color: #000000;
+}
+
+/* 리뷰 텍스트 내가 뭐라고 했더라... */
+.review-text3 {
+    position: absolute;
+    width: 71.64%;
+    height: 18.03%;
+    left: 4%;
+    top: 5%;
+    font-family: 'Spoqa Han Sans Neo', sans-serif;
+    font-weight: 400;
+    font-size: 1.4vw;
+    line-height: 3.2vw; 
+    color: #000000;
+}
+
+/* 아이콘 (mdi:compass-outline) 아래에 canav 아이콘 */
+.icon {
+    position: absolute;
+    width: 2.58%; 
+    height: 3.97%;
+    left: 45%; 
+    top: 89.3%; 
+}
+
+/* 추가 벡터 요약 아래에 작은 canav 아이콘 */
+.additional-vector4 {
+    position: absolute; 
+    left: 8.33%;
+    right: 8.33%;
+    top: 8.33%;
+    bottom: 8.33%; 
+    background: #ffffff;
+}
+
+/* Cavav */
+.cavav {
+    position: absolute; 
+    width: 7.42%; 
+    height: 4.81%; 
+    left: 45%; 
+    top: 88.94%; 
+    font-family: 'Spoqa Han Sans Neo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4vw;
+    line-height: 3.2vw; 
+    text-align: right; 
+    color: #000000; 
+}
