@@ -15,174 +15,164 @@
 
 /* Rectangle 14 */
 .rectangle-14 {
-  position: absolute; /* 요소를 절대 위치로 설정 */
-  top: 10%; /* 위쪽 여백을 5%로 설정 */
-  left: 10%; /* 왼쪽 여백을 10%로 설정 */
-  width: 80%; /* 요소의 너비를 80%로 설정 */
-  height: 80%; /* 요소의 높이를 90%로 설정 */
-  background: #355E3D; /* 배경색을 설정 */
+  position: absolute;
+  top: 10%; 
+  left: 10%; 
+  width: 80%; 
+  height: 80%;
+  background: #355E3D;
 }
 
 
 /* mdi:compass-outline Large Icon 중앙 나침반 로고 */
 .compass-icon-large {
   position: absolute;
-  width: 146px;
-  height: 146px;
-  left: 306px;
-  top: 306px;
+  width: 60%;
+  height: 90%;
+  left: -39%;
+  top: 10.6%;
+  transform: translate(-50%, -50%);
 }
 
 /* Vector */
 .vector {
   position: absolute;
-  left: 160.33%;
-  right: -160.33%;
-  top: 75.33%;
-  bottom: -75.33%;
+  left: 160%;
+  top: 75%;
+  width: 21%;
+  height: 23.2%;
   background: #ffffff;
 }
 
-/* mdi:compass-outline Small Icon 왼쪽 위 작은 나침반*/
+/* mdi:compass-outline Small Icon 왼쪽 위 작은 나침반 */
 .compass-icon-small {
   position: absolute;
-  width: 33px;
-  height: 33px;
-  left: 220px;
-  top: 65px;
-}
-
-/* Vector Black */
-.vector-black {
-  position: absolute;
-  left: 8.33%;
-  right: 8.33%;
-  top: 8.33%;
-  bottom: 8.33%;
+  width: 1.7%;
+  height: 3%;
+  left: 11.5%;
+  top: 6%;
   background: #000000;
 }
 
-/* Canav 왼쪽 위*/
+/* Canav 왼쪽 위 */
 .canav-title {
   position: absolute;
-  width: 98px;
-  height: 40px;
-  left: 250px;
-  top: 60px;
+  width: 5%;
+  height: 6%;
+  left: 13%;
+  top: 6%;
   font-family: 'Spoqa Han Sans Neo';
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 40px; /* identical to box height */
+  font-size: 1.6vw;
+  line-height: 1.9vw;
   text-align: right;
   color: #000000;
 }
 
-/* 회원가입 
-오른쪽 위*/
+/* 회원가입 오른쪽 위 */
 .signup-text {
   position: absolute;
-  width: 40px;
-  height: 40px;
-  left: 1600px;
-  top: 53px;
+  width: 2%;
+  height: 2%;
+  left: 85%;
+  top: 6%;
   font-family: 'Spoqa Han Sans Neo';
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
-  line-height: 5px; /* identical to box height */
+  font-size: 0.5vw;
+  line-height: 0.25vw;
   text-align: right;
   color: #000000;
 }
 
-/* 로그인 
-회원가입 옆*/
+/* 로그인 회원가입 옆 */
 .login-text {
   position: absolute;
-  width: 50px;
-  height: 13px;
-  left: 1500px;
-  top: 50px;
+  width: 2.5%;
+  height: 1%;
+  left: 81.5%;
+  top: 5.6%;
   font-family: 'Spoqa Han Sans Neo';
   font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 13px; /* identical to box height */
+  font-weight: 500;
+  font-size: 0.5vw;
+  line-height: 0.65vw;
   text-align: right;
   color: #000000;
 }
 
-/* Canav Large Text 중앙 큰 CANAV*/
+/* Canav Lar ge Text 중앙 큰 CANAV*/
 .canav-large {
   position: absolute;
-  width: 525px;
-  height: 213px;
-  left: 700px;
-  top: 380px;
+  width: 37%;
+  height: 40%;
+  left: 33.8%;
+  top: 33%;
   font-family: 'Spoqa Han Sans Neo';
   font-style: normal;
-  font-weight: 700;
-  font-size: 170px;
-  line-height: 213px; /* identical to box height */
+  font-weight: 900;
+  font-size: 11vw;
+  line-height: 11vw;
   text-align: right;
   color: #FFFFFF;
 }
 
-/* Description Text 가운데 설명 어쩌구 저쩌구*/
+/* Description Text 가운데 설명 */
 .description-text {
   position: absolute;
-  width: 331px;
-  height: 75px;
-  left: 940px;
-  top: 600px;
+  width: 16.6%;
+  height: 3.75%;
+  left: 45%;
+  top: 56%;
   font-family: 'Spoqa Han Sans Neo';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 1vw;
+  line-height: 1.25vw;
   text-align: right;
   color: #FFFFFF;
 }
 
-/* Rectangle 15 밑으로 내리는 사각형*/
+/* Rectangle 15 밑으로 내리는 사각형 */
 .rectangle-15 {
   position: absolute;
-  width: 66px;
-  height: 66px;
-  left: 920px;
-  top: 940px;
+  width: 3.4%;
+  height: 3.4%;
+  left: 46%;
+  top: 90%;
   background: #FFFFFF;
-  box-shadow: 8px 8px 10px 6px rgba(0, 0, 0, 0.15);
-  border-radius: 10px;
+  box-shadow: 0.4vw 0.4vw 0.5vw 0.3vw rgba(0, 0, 0, 0.15);
+  border-radius: 0.5vw;
 }
 
+/* vector-1 */
 .vector-1 {
-  position: absolute; /* 요소를 절대 위치로 설정하여, 부모 요소에 대해 위치를 지정할 수 있도록 함 */
-  width: 31px; /* 요소의 너비를 31px로 설정 */
-  height: 15px; /* 요소의 높이를 15px로 설정 */
-  left: 13px; /* 부모 요소의 왼쪽에서 624px 만큼 떨어진 위치에 배치 */
-  top: 20px; /* 부모 요소의 상단에서 741px 만큼 떨어진 위치에 배치 */
-
-  border: 5px solid #355E3D; /* 테두리를 설정 (색상: #355E3D, 두께: 5px) */
+  position: absolute;
+  width: 50%;
+  height: 40%;
+  left: 20%;
+  top: 20%;
+  border: 0.25vw solid #355E3D;
 }
 
-
-/* Line 3 로그인와 회원가입 나누는 줄*/
+/* Line 3 로그인와 회원가입 나누는 줄 */
 .line-3 {
   position: absolute;
-  width: 16px;
-  height: 0px;
-  left: 1567px;
-  top: 55px;
+  width: 0.8%;
+  height: 0;
+  left: 84.1%;
+  top: 6%;
   opacity: 0.5;
-  border: 0.5px solid #000000;
+  border: 0.025vw solid #000000;
   transform: rotate(90deg);
 }
 
 
 
 
-/*두번째 페이지*/
+
+/* 두번째 페이지 */
 .onboarding-page-2 {
   position: relative;
   width: 100vw;
@@ -193,193 +183,184 @@
 /* Group 7 왼쪽 초록색 사각형 */
 .group-10 {
   position: absolute;
-  width: 33.33%; /* 화면의 1/3 */
+  width: 33.33%;
   height: 100%;
   left: 0;
   top: 0;
-  background: #355E3D; /* 초록색 배경 */
-}
-
-/* Rectangle 14 */
-.rectangle-20{
-  position: absolute;
-  width: 424px;
-  height: 832px;
-  left: 0px;
-  top: 0px;
   background: #355E3D;
 }
 
-/* Group 8 왼쪽 회색 사각형(사진 넣을)*/
+/* Group 8 왼쪽 회색 사각형 (사진 넣을) */
 .group-11 {
   position: absolute;
-  width: 29.92%; /* 화면의 약 30% */
-  height: 65%; /* 원하는 높이 */
-  left: 25%; /* 가운데 정렬을 위한 왼쪽 위치 */
-  transform: translateX(-50%); /* 정중앙으로 이동 */
-  background: #BEBEBE; /* 회색 배경 */
-  top: 15%; /* 페이지 내 상단에서 위치 */
+  width: 29.92%;
+  height: 65%;
+  left: 25%;
+  top: 15%;
+  transform: translateX(-50%);
+  background: #BEBEBE;
 }
 
 /* 청소년을 위한 AI 입시&진로 컨설팅 */
 .ai-consulting-title {
   position: absolute;
-  width: 350px;
-  height: 100px;
-  left: 900px;
-  top: 155px;
+  width: 18%;
+  height: 10%;
+  left: 50%;
+  top: 15%;
   font-family: 'Spoqa Han Sans Neo';
   font-style: normal;
   font-weight: 700;
-  font-size: 50px;
-  line-height: 50px;
+  font-size: 2.6vw;
+  line-height: 2.6vw;
   color: #000000;
 }
 
 /* 입시와 진로 컨설팅 설명 */
 .ai-consulting-description {
   position: absolute;
-  width: 470px;
-  height: 72px;
-  left: 900px;
-  top: 346px;
+  width: 24%;
+  height: 7.5%;
+  left: 50.5%;
+  top: 34%;
   font-family: 'Spoqa Han Sans Neo';
   font-style: normal;
   font-weight: 500;
-  font-size: 19.4px;
-  line-height: 24px;
+  font-size: 1.01vw;
+  line-height: 1.25vw;
   color: #000000;
 }
 
-/* Rectangle 17 입시 컨설팅 회색 배경*/
+/* Rectangle 17 입시 컨설팅 회색 배경 */
 .rectangle-17 {
   position: absolute;
-  width: 180px;
-  height: 124px;
-  left: 900px;
-  top: 504px;
+  width: 9.4%;
+  height: 12%;
+  left: 50%;
+  top: 50%;
   background: #D9D9D9;
 }
 
-/* Rectangle 18 (진로 컨설팅 회색 창) */
+/* Rectangle 18 진로 컨설팅 회색 창 */
 .rectangle-19 {
   position: absolute;
-  width: 180px;
-  height: 124px;
-  left: 1142px;
-  top: 503px;
+  width: 9.4%;
+  height: 12%;
+  left: 63%;
+  top: 50%;
   background: #D9D9D9;
 }
 
-/* 입시 컨설팅 단어 칸*/
+/* 입시 컨설팅 단어 칸 */
 .admission-consulting-text {
   position: absolute;
-  width: 142px;
-  height: 29px;
-  left: 930px;
-  top: 536px;
+  width: 7.4%;
+  height: 3%;
+  left: 51.5%;
+  top: 53.5%;
   font-family: 'Spoqa Han Sans Neo';
   font-style: normal;
   font-weight: 700;
-  font-size: 23px;
-  line-height: 29px; /* identical to box height */
+  font-size: 1.2vw;
+  line-height: 1.5vw;
   color: #000000;
 }
 
-/* 진로 컨설팅 단어 칸*/
+/* 진로 컨설팅 단어 칸 */
 .career-consulting-text {
   position: absolute;
-  width: 150px;
-  height: 29px;
-  left: 1170px;
-  top: 536px;
+  width: 7.8%;
+  height: 3%;
+  left: 64.5%;
+  top: 53.5%;
   font-family: 'Spoqa Han Sans Neo';
   font-style: normal;
   font-weight: 900;
-  font-size: 23px;
-  line-height: 29px; /* identical to box height */
+  font-size: 1.2vw;
+  line-height: 1.5vw;
   color: #000000;
 }
 
-/* Vector 2 입시 컨설팅 화살표*/
+/* Vector 2 입시 컨설팅 화살표 */
 .vector-2 {
   position: absolute;
-  width: 40.5px;
-  height: 12px;
-  left: 966px;
-  top: 585.5px;
-  border: 3px solid #355e3d;
+  width: 3%;
+  height: 2%;
+  left: 52%;
+  top: 58.5%;
+  border: 0.15vw solid #355E3D;
 }
 
-/* Vector 3 진로 컨설팅 화살표*/
+/* Vector 3 진로 컨설팅 화살표 */
 .vector-3 {
   position: absolute;
-  width: 40.5px;
-  height: 12px;
-  left: 1205px;
-  top: 586px;
-  border: 3px solid #355E3D;
+  width: 3%;
+  height: 2%;
+  left: 64.6%;
+  top: 58.5%;
+  border: 0.15vw solid #355E3D;
 }
+
 
 
 
 /* 3페이지 */
 .page-3 {
   position: relative;
-  width: 100vw;  /* 전체 너비 */
-  height: 100vh; /* 전체 높이 */
-  background: #FFFFFF; /* 배경색 */
+  width: 100vw;
+  height: 100vh;
+  background: #FFFFFF;
 }
 
 /* onboarding-page-3 */
 .onboarding-page-3 {
-  position: absolute; /* 페이지 내에서 절대 위치 */
-  width: 100%; /* 부모 요소에 맞춤 */
-  height: 100%; /* 부모 요소에 맞춤 */
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 /* Group 7 오른쪽 초록색 화면 */
 .group-7 {
   position: absolute;
-  width: 33.33%; /* 화면의 1/3 */
+  width: 33.33%;
   height: 100%;
   right: 0;
   top: 0;
-  background: #355E3D; /* 초록색 배경 */
+  background: #355E3D;
 }
 
 /* Group 8 사진 넣을 회색 화면 */
 .group-8 {
   position: absolute;
-  width: 29.92%; /* 화면의 약 30% */
-  height: 65%; /* 원하는 높이 */
-  left: 75%; /* 가운데 정렬을 위한 왼쪽 위치 */
-  transform: translateX(-50%); /* 정중앙으로 이동 */
-  background: #BEBEBE; /* 회색 배경 */
-  top: 15%; /* 페이지 내 상단에서 위치 */
+  width: 29.92%;
+  height: 65%;
+  left: 75%;
+  top: 15%;
+  transform: translateX(-50%);
+  background: #BEBEBE;
 }
 
-/* Group 9 그라데이션*/
+/* Group 9 그라데이션 */
 .group-9 {
   position: absolute;
-  width: 100%; /* 전체 너비 */
-  height: 15%; /* 원하는 높이 */
+  width: 100%;
+  height: 15%;
   left: 0;
-  bottom: 0; /* 페이지 아래 */
+  bottom: 0;
   background: linear-gradient(180deg, rgba(190, 190, 190, 0) 0%, rgba(0, 0, 0, 0.25) 100%);
 }
 
 /* 대학생을 위한 AI 취업 컨설팅 제목 */
 .ai-job-consulting-title {
   position: absolute;
-  width: 25%; /* 너비 비율 */
-  height: auto; /* 내용에 따라 높이 조정 */
-  left: 26%; /* 왼쪽 위치 */
-  top: 15%; /* 상단 위치 */
+  width: 25%;
+  height: auto;
+  left: 26%;
+  top: 15.7%;
   font-family: 'Spoqa Han Sans Neo';
   font-weight: 500;
-  font-size: 70px;
-  line-height: 70px;
+  font-size: 3.6vw;
+  line-height: 3.6vw;
   color: #000000;
 }
 
@@ -389,58 +370,56 @@
   width: 40%;
   height: auto;
   left: 32%;
-  top: 35%; /* 제목 아래 위치 */
+  top: 35%;
   font-family: 'Spoqa Han Sans Neo';
   font-weight: 500;
-  font-size: 19.4px;
-  line-height: 24px;
+  font-size: 1vw;
+  line-height: 1.25vw;
   color: #000000;
 }
 
 /* Rectangle 18 바로가기 초록 네모 */
 .rectangle-18 {
   position: absolute;
-  width: 30%; /* 너비 비율 */
-  height: 15%; /* 높이 비율 */
+  width: 25%;
+  height: 12.5%;
   left: 21%;
-  top: 67%; /* 설명 아래 위치 */
+  top: 67%;
   background: #179E30;
 }
 
 /* 진로 컨설팅 바로가기 */
 .career-consulting-link {
   position: absolute;
-  width: 50%; /* 너비 비율 */
+  width: 50%;
   height: auto;
-  left: 23.5%; /* 가운데 정렬 */
-  top: 74.5%; /* 직사각형 안에 위치 */
+  left: 21.5%;
+  top: 73%;
   font-family: 'Spoqa Han Sans Neo';
   font-weight: 700;
-  font-size: 45px;
-  line-height:0px; /* 동일 박스 높이 */
+  font-size: 2.3vw;
+  line-height: 0; /* 박스 높이 */
   color: #FFFFFF;
 }
 
 /* Vector 4 스타일 정의 */
 .vector-4 {
-  position: absolute; /* 요소를 절대 위치로 설정 */
-  width: 70px; /* 요소의 너비 설정 */
-  height: 30px; /* 요소의 높이 설정 */
-  left: 871px; /* 요소의 왼쪽 위치 설정 */
-  top: 779px; /* 요소의 위쪽 위치 설정 */
-  border: 3px solid #000000; /* 흰색 테두리 설정 */
-  transform: rotate(-89.82deg); /* 요소를 -89.82도 회전 */
+  position: absolute;
+  width: 3.6%;
+  height: 2%;
+  left: 43%;
+  top: 72.2%;
+  border: 0.15vw solid #000000;
+  transform: rotate(-89.82deg);
 }
 
-/* Vector 1 스타일 정의 */
+/* Vector 5 스타일 정의 */
 .vector-5 {
-  position: absolute; /* 요소를 절대 위치로 설정 */
-  width: 31px; /* 요소의 너비 설정 */
-  height: 15px; /* 요소의 높이 설정 */
-  left: 945px; /* 요소의 왼쪽 위치 설정 */
-  top: 1000px; /* 요소의 위쪽 위치 설정 */
-  
-  border: 5px solid #355E3D; /* 테두리를 설정 (색상: #355E3D, 두께: 5px) */
-  transform: rotate(-180deg); /* 요소를 -180도 회전 */
+  position: absolute;
+  width: 3%;
+  height: 2.5%;
+  left: 47.5%;
+  top: 96.4%;
+  border: 0.25vw solid #355E3D;
+  transform: rotate(-180deg);
 }
-
