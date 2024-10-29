@@ -41,6 +41,16 @@ const OnboardingPage = () => {
         placeholder="비밀번호를 입력해 주세요"
       />
       
+      {/* Password Input */}
+      <label className="label-password2" htmlFor="password">비밀번호</label>
+      <div className="asterisk2">*</div>
+      <input
+        id="password"
+        className="input-password2"
+        type="password"
+        placeholder="비밀번호를 입력해 주세요"
+      />
+
       {/* Signup Button */}
       <button className="signup-btn">
         <span className="signup-btn-text">회원가입</span>
@@ -48,6 +58,8 @@ const OnboardingPage = () => {
       
       {/* Background Icon */}
       <div className="icon-compass-large"></div>
+      <div classNAme="asterisk-id">
+      </div>
     </div>
   );
 };

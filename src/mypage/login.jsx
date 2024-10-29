@@ -13,10 +13,10 @@ const OnboardingPage=()=> {
       </div>
 
       {/* Canav 로고 */}
-      <div className="canav">Canav</div>
+      <div className="canav1">Canav</div>
 
       {/* 상단 오른쪽 로그인/회원가입 */}
-      <div className="signup">회원가입</div>
+      <div className="signup-text">회원가입</div>
       <div className="login-link">로그인</div>
       <div className="line-3" />
 
