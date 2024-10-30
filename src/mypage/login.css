@@ -1,382 +1,47 @@
-/* 온보딩 페이지 회원가입 창*/
+/* 온보딩 페이지 로그인창 */
 .onboarding-page {
     position: relative;
-    width: 1280px;
-    height: 832px;
-    left: 6700px;
-    top: 100px;
-    background: #FFFFFF;
-  }
-  
-  /* 회원가입 */
-  .signup-title {
-    position: absolute;
-    width: 184px;
-    height: 63px;
-    left: 539px;
-    top: 132px;
-    font-family: 'Spoqa Han Sans Neo', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 63px;
-    color: #355E3D;
-  }
-  
-  /* 회원 정보를 입력해 주세요 */
-  .signup-subtitle {
-    position: absolute;
-    width: 162px;
-    height: 19px;
-    left: 344px;
-    top: 299px;
-    font-family: 'Spoqa Han Sans Neo', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 19px;
-    color: #355E3D;
-  }
-  
-  /* 아이디 */
-  .label-id {
-    position: absolute;
-    width: 42px;
-    height: 19px;
-    left: 344px;
-    top: 337px;
-    font-family: 'Spoqa Han Sans Neo', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 19px;
-    color: #355E3D;
-  }
-  
-  /* mdi:compass-outline 위쪽 canav 아이콘*/
-  .icon-compass {
-    position: absolute;
-    width: 33px;
-    height: 33px;
-    left: 133px;
-    top: 28px;
-  }
-  
-  /* Vector */
-  .vector {
-    position: absolute;
-    left: 8.33%;
-    right: 8.33%;
-    top: 8.33%;
-    bottom: 8.33%;
-    background: #000000;
-  }
-  
-  /* Canav */
-  .brand-title {
-    position: absolute;
-    width: 98px;
-    height: 40px;
-    left: 170px;
-    top: 25px;
-    font-family: 'Spoqa Han Sans Neo', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 40px;
-    text-align: right;
-    color: #000000;
-  }
-  
-  /* 회원가입 - 헤더 위쪽 작은 회원가입*/
-  .signup-header {
-    position: absolute;
-    width: 37px;
-    height: 13px;
-    left: 1092px;
-    top: 39px;
-    font-family: 'Spoqa Han Sans Neo', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 13px;
-    text-align: right;
-    color: #000000;
-  }
-  
-  /* 로그인 위쪽 로그인*/
-  .login-header {
-    position: absolute;
-    width: 28px;
-    height: 13px;
-    left: 1032px;
-    top: 39px;
-    font-family: 'Spoqa Han Sans Neo', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 13px;
-    text-align: right;
-    color: #000000;
-  }
-  
-  /* Line 3 로그인과 회원가입 사이에 선*/
-  .line3 {
-    position: absolute;
-    width: 16px;
-    height: 0px;
-    left: 1077px;
-    top: 38px;
-    opacity: 0.5;
-    border: 0.5px solid #000000;
-    transform: rotate(90deg);
-  }
-  
-  /* Line 4 canav와 회원가입 사이에 선*/
-  .line4 {
-    position: absolute;
-    width: 1280px;
-    height: 0px;
-    left: 0px;
-    top: 76px;
-    opacity: 0.5;
-    border: 0.5px solid #000000;
-  }
-  
-  /* Line 5 회원가입과 회원 정보를 입력해주세요 사이에 선*/
-  .line5 {
-    position: absolute;
-    width: 734px;
-    height: 0px;
-    left: 273px;
-    top: 243px;
-    opacity: 0.5;
-    border: 0.5px solid #000000;
-  }
-  
-  /* Rectangle 20 아이디를 입력해주세요 상자*/
-  .input-field {
-    box-sizing: border-box;
-    position: absolute;
-    width: 429px;
-    height: 48px;
-    left: 344px;
-    top: 364px;
-    background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    box-shadow: inset 0px 2px 4px 2px rgba(0, 0, 0, 0.05);
-    border-radius: 5px;
-  }
-  
-  /* 아이디를 입력해 주세요 */
-  .placeholder-id {
-    position: absolute;
-    width: 145px;
-    height: 19px;
-    left: 359px;
-    top: 378px;
-    font-family: 'Spoqa Han Sans Neo', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 19px;
-    color: #929292;
-  }
-  
-  /* 비밀번호 */
-  .label-password {
-    position: absolute;
-    width: 56px;
-    height: 19px;
-    left: 344px;
-    top: 431px;
-    font-family: 'Spoqa Han Sans Neo', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 19px;
-    color: #355E3D;
-  }
-  
-  /* * (별표) 비밀번호 옆 별*/
-  .asterisk {
-    position: absolute;
-    width: 8px;
-    height: 19px;
-    left: 398px;
-    top: 427px;
-    font-family: 'Spoqa Han Sans Neo', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 19px;
-    color: #A81717;
-  }
-  
-  /* Rectangle 24 비밀번호를 입력해주세요 상자*/
-  .input-password {
-    box-sizing: border-box;
-    position: absolute;
-    width: 591px;
-    height: 48px;
-    left: 344px;
-    top: 458px;
-    background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    box-shadow: inset 0px 2px 4px 2px rgba(0, 0, 0, 0.05);
-    border-radius: 5px;
-  }
-  
-  /* 비밀번호를 입력해 주세요 */
-  .placeholder-password {
-    position: absolute;
-    width: 159px;
-    height: 19px;
-    left: 359px;
-    top: 472px;
-    font-family: 'Spoqa Han Sans Neo', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 19px;
-    color: #929292;
-  }
-  
-  /* Rectangle 23 중복확인 버튼*/
-  .duplicate-check-btn {
-    position: absolute;
-    width: 140px;
-    height: 48px;
-    left: 795px;
-    top: 364px;
-    background: #355E3D;
-    border-radius: 25px;
-  }
-  
-  /* 중복 확인 */
-  .duplicate-check-text {
-    position: absolute;
-    width: 59px;
-    height: 19px;
-    left: 835px;
-    top: 378px;
-    font-family: 'Spoqa Han Sans Neo', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 19px;
-    text-align: center;
-    color: #FFFFFF;
-  }
-  
-  /* Rectangle 25 회원가입 버튼*/
-  .signup-btn {
-    position: absolute;
-    width: 178px;
-    height: 61px;
-    left: 553px;
-    top: 699px;
-    background: #355E3D;
-    border-radius: 35px;
-  }
-  
-  /* 회원가입 버튼 텍스트 */
-  .signup-btn-text {
-    position: absolute;
-    width: 75px;
-    height: 24px;
-    left: 604px;
-    top: 717px;
-    font-family: 'Spoqa Han Sans Neo', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 25px;
-    text-align: center;
-    color: #FFFFFF;
-  }
-  
-  /* mdi:compass-outline 아마 아래에 canav 아이콘?*/
-  .icon-compass-large {
-    position: absolute;
-    width: 559px;
-    height: 559px;
-    left: -200px;
-    top: 461px;
-    opacity: 0.1;
-  }
-  
-  /* Vector */
-  .vector-large {
-    position: absolute;
-    left: 8.33%;
-    right: 8.33%;
-    top: 8.33%;
-    bottom: 8.33%;
-    background: #355E3D;
-  }
-  
-  /* * (별표 - 아이디 옆) */
-  .asterisk-id {
-    position: absolute;
-    width: 8px;
-    height: 19px;
-    left: 385px;
-    top: 333px;
-    font-family: 'Spoqa Han Sans Neo', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 19px;
-    color: #A81717;
-}
-
-/* 온보딩 페이지 로그인창*/
-.onboarding-page {
-    position: relative;
-    width: 1280px;
-    height: 832px;
-    left: 8020px;
-    top: 100px;
+    width: 100%;
+    height: 100%;
     background: #FFFFFF;
 }
 
-/* Rectangle 26 로그인 뒤에 초록색 배경*/
-.rectangle-26 {
+/* Rectangle 24 로그인 뒤에 초록색 배경 */
+.rectangle-24 {
     position: absolute;
-    width: 1280px;
-    height: 362px;
-    left: 0px;
-    top: 76px;
+    width: 100%;
+    height: 43.51%;
+    left: 0%;
+    top: 9.13%;
     background: #355E3D;
 }
 
 /* 로그인 */
 .login-title {
     position: absolute;
-    width: 138px;
-    height: 63px;
-    left: calc(50% - 138px / 2);
-    top: 132px;
+    width: 20%;
+    height: 8.75%;
+    left: 43.4%;
+    top: 22%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
-    line-height: 63px;
+    font-size: 4vw;
+    line-height: 8.75%;
     color: #FFFFFF;
 }
 
-/* mdi:compass-outline 왼쪽 위 작은 canav 아이콘*/
+/* mdi:compass-outline 왼쪽 위 작은 canav 아이콘 */
 .mdi-compass-outline {
     position: absolute;
-    width: 33px;
-    height: 33px;
-    left: 133px;
-    top: 28px;
+    width: 2.58%;
+    height: 4.58%; 
+    left: 10.39%; 
+    top: 3.89%;
 }
 
-/* Vector */
-.vector {
+/* Vector3 작은 canav 아이콘 */
+.vector3 {
     position: absolute;
     left: 8.33%;
     right: 8.33%;
@@ -386,259 +51,257 @@
 }
 
 /* Canav */
-.canav {
-    position: absolute;
-    width: 98px;
-    height: 40px;
-    left: 170px;
-    top: 25px;
-    font-family: 'Spoqa Han Sans Neo', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 40px;
-    text-align: right;
-    color: #000000;
+.canav1 {
+  position: absolute;
+  width: 7.6%;
+  height: 4.8%;
+  left: 13.2%;
+  top: 3%;
+  font-family: 'Spoqa Han Sans Neo', sans-serif;
+  font-weight: 700;
+  font-size: 2.5vw;
+  line-height: 3.2vw;
+  text-align: right;
+  color: #000000;
 }
 
-/* 회원가입 오른쪽 위 작은 회원가입*/
-.signup {
+/* 회원가입 오른쪽 위 작은 회원가입 */
+.signup-text {
     position: absolute;
-    width: 37px;
-    height: 13px;
-    left: 1092px;
-    top: 39px;
+    width: 4.8%;
+    height: 1.81%;
+    left: 85%;
+    top: 4.1%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
-    font-style: normal;
     font-weight: 400;
-    font-size: 10px;
-    line-height: 13px;
+    font-size: 1vw;
+    line-height: 1vw;
     text-align: right;
     color: #000000;
 }
 
-/* 로그인 오른쪽 위 작은 로그인*/
+/* 로그인 오른쪽 위 작은 로그인 */
 .login-link {
     position: absolute;
-    width: 28px;
-    height: 13px;
-    left: 1032px;
-    top: 39px;
+    width: 4%;
+    height: 1.81%;
+    left: 80%; 
+    top: 4.1%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 10px;
-    line-height: 13px;
+    font-size: 1vw; 
+    line-height: 1vw;
     text-align: right;
     color: #000000;
 }
 
-/* Line 3 로그인과 회원가입 사이에 선*/
+/* Line 3 로그인과 회원가입 사이에 선 */
 .line-3 {
     position: absolute;
-    width: 16px;
-    height: 0px;
-    left: 1077px;
-    top: 38px;
+    width: 1.25%; 
+    height: 0%; 
+    left: 84.14%; 
+    top: 5.28%; 
     opacity: 0.5;
     border: 0.5px solid #000000;
     transform: rotate(90deg);
 }
 
-/* Line 4 canav와 로그인 사이에 선*/
+/* Line 4 canav와 로그인 사이에 선 */
 .line-4 {
     position: absolute;
-    width: 1280px;
-    height: 0px;
-    left: 0px;
-    top: 76px;
+    width: 100%;
+    height: 0%;
+    left: 0%;
+    top: 10.56%;
     opacity: 0.5;
     border: 0.5px solid #000000;
 }
 
-/* Rectangle 27 가운데에 흰 네모상자*/
-.rectangle-27 {
+/* Rectangle 25 가운데에 흰 네모상자 */
+.rectangle-25 {
     position: absolute;
-    width: 545px;
-    height: 460px;
-    left: 367px;
-    top: 272px;
+    width: 42.58%;
+    height: 50%; 
+    left: 28.67%; 
+    top: 37.78%; 
     background: #FFFFFF;
     box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.15);
-    border-radius: 20px;
+    border-radius: 2.78%;
 }
 
 /* 아이디 */
 .id-label {
     position: absolute;
-    width: 42px;
-    height: 19px;
-    left: 444px;
-    top: 333px;
+    width: 10%;
+    height: 2.64%;
+    left: 19%; 
+    top: 17%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 19px;
+    font-weight: 700;
+    font-size: 1vw;
+    line-height: 2.64%; 
     color: #355E3D;
 }
 
-/* Rectangle 20 아이디를 입력해주세요 상자*/
+/* Rectangle 26 아이디를 입력해주세요 상자 */
 .input-box {
     box-sizing: border-box;
     position: absolute;
-    width: 391px;
-    height: 48px;
-    left: 444px;
-    top: 360px;
+    width: 70%; 
+    height: 12%;
+    left: 16.4%;
+    top: 22%; 
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.15);
     box-shadow: inset 0px 2px 4px 2px rgba(0, 0, 0, 0.05);
-    border-radius: 5px;
+    border-radius: 0.69%; 
 }
 
 /* 아이디를 입력해 주세요 */
 .input-placeholder {
     position: absolute;
-    width: 145px;
-    height: 19px;
-    left: 459px;
-    top: 374px;
+    width: 80%; 
+    height: 2.64%; 
+    left: 4%; 
+    top: 50%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 19px;
+    font-size: 0.75vw;
+    line-height: 2.64%; 
     color: #929292;
 }
 
 /* 비밀번호 */
 .password-label {
     position: absolute;
-    width: 56px;
-    height: 19px;
-    left: 444px;
-    top: 434px;
+    width: 10%; 
+    height: 2.64%;
+    left: 19%;
+    top: 40.28%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 19px;
+    font-weight: 700;
+    font-size: 1vw;
+    line-height: 2.64%; 
     color: #355E3D;
 }
 
-/* Rectangle 24 비밀번호를 입력해주세요 상자*/
+/* Rectangle 27 비밀번호를 입력해주세요 상자 */
 .password-box {
     box-sizing: border-box;
     position: absolute;
-    width: 391px;
-    height: 48px;
-    left: 444px;
-    top: 461px;
+    width: 70%;
+    height: 12%;
+    left: 16.4%; 
+    top: 47.03%; 
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.15);
     box-shadow: inset 0px 2px 4px 2px rgba(0, 0, 0, 0.05);
-    border-radius: 5px;
+    border-radius: 0.69%;
 }
 
 /* 비밀번호를 입력해 주세요 */
 .password-placeholder {
     position: absolute;
-    width: 159px;
-    height: 19px;
-    left: 459px;
-    top: 475px;
+    width: 80%;
+    height: 2.64%;
+    left: 4%; 
+    top: 50%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 19px;
+    font-size: 0.75vw; 
+    line-height: 2.64%; 
     color: #929292;
 }
 
 /* Canav에 오신 것을 환영합니다! */
 .welcome-message {
     position: absolute;
-    width: 194px;
-    height: 19px;
-    left: 543px;
-    top: 216px;
+    width: 15.16%;
+    height: 2.64%; 
+    left: 42.7%; 
+    top: 30%; 
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-style: normal;
     font-weight: 100;
-    font-size: 15px;
-    line-height: 19px;
+    font-size: 1vw;
+    line-height: 2.64%;
     color: #FFFFFF;
 }
 
-/* Rectangle 28 로그인 버튼*/
+/* Rectangle 28 로그인 버튼 */
 .login-button {
     position: absolute;
-    width: 391px;
-    height: 60px;
-    left: 444px;
-    top: 541px;
+    width: 50%; 
+    height: 8.33%;
+    left: 25%;
+    top: 70%;
     background: #355E3D;
-    border-radius: 30px;
+    border-radius: 4.17%; 
 }
 
 /* 로그인 버튼 텍스트 */
 .login-button-text {
     position: absolute;
-    width: 75px;
-    height: 24px;
-    left: 602px;
-    top: 559px;
+    width: 50%;
+    height: 3.33%; 
+    left: 26%;
+    top: 55%;
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
+    font-size: 1vw; 
+    line-height: 3.19%; 
     text-align: center;
     color: #FFFFFF;
 }
 
-/* Rectangle 29 회원가입 버튼*/
+/* Rectangle 29 회원가입 버튼 */
 .signup-button {
     box-sizing: border-box;
     position: absolute;
-    width: 391px;
-    height: 60px;
-    left: 444px;
-    top: 609px;
+    width: 50%; 
+    height: 8.33%; 
+    left: 25%;
+    top: 80%; 
     background: #FFFFFF;
     border: 1px solid #355E3D;
-    border-radius: 30px;
+    border-radius: 4.17%; 
 }
 
 /* 회원가입 버튼 텍스트 */
 .signup-button-text {
     position: absolute;
-    width: 75px;
-    height: 24px;
-    left: 602px;
-    top: 627px;
+    width: 50%; 
+    height: 3.33%;
+    left: 26%;
+    top: 56.5%; 
     font-family: 'Spoqa Han Sans Neo', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
+    font-size: 1vw; 
+    line-height: 3.19%;
     text-align: center;
     color: #355E3D;
 }
 
-/* mdi:compass-outline 오른쪽 큰 canav 아이콘*/
+/* mdi:compass-outline 오른쪽 큰 canav 아이콘 */
 .mdi-compass-outline-large {
     position: absolute;
-    width: 559px;
-    height: 559px;
-    left: 906px;
-    top: 86px;
+    width: 43.67%; 
+    height: 77.64%; 
+    left: 70.78%;
+    top: 11.94%; 
     opacity: 0.1;
 }
 
-/* Vector */
-.vector-background {
+/* Vector4 뒤에 큰 흰색 canav 아이콘 */
+.vector4-background {
     position: absolute;
     left: 8.33%;
     right: 8.33%;
