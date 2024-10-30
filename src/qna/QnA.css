@@ -1,38 +1,39 @@
-/* 온보딩 페이지 */
-.onboarding-page-1 {
-  position: relative;
+
+.page{
   width: 100vw;
   height: 100vh;
-  left: 50%;
-  transform: translateX(-50%);
+}
+/* 온보딩 페이지 */
+.onboarding-page1 {
+  position: relative;
+  width: 100vw; /* 1280px -> 1280px 기준 */
+  height: 100vh;
   background: #FFFFFF;
 }
 
 /* Group 7 */
-.group-7 {
-  position: absolute;
-  width: 100vw;
-  height: 100vh; /* 846px -> 832px 기준 */
-  left: 0;
-  top: 0; /* -14px -> 832px 기준 */
+.group-0903 {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  background: #355E3D;
 }
-
 /* Rectangle 14 */
-.rectangle-1 {
+.rectangle-2 {
   position: absolute;
-  width: 100vw;
-  height: 100vh; /* 120px -> 832px 기준 */
-  left: 0;
+  width: 100%; /* 1280px -> 1280px 기준 */
+  height: 14.42%; /* 120px -> 832px 기준 */
+  left: 0%;
   top: 85.58%; /* 712px -> 832px 기준 */
   background: linear-gradient(180deg, #355E3D 0%, rgba(53, 94, 61, 0.8) 49%, rgba(53, 94, 61, 0) 100%);
 }
 
 /* Rectangle 15 */
-.rectangle-2 {
+.rectangle-3 {
   position: absolute;
-  width: 100vw;
-  height: 100vh; /* 726px -> 832px 기준 */
-  left: 0;
+  width: 100%; /* 1280px -> 1280px 기준 */
+  height: 87.26%; /* 726px -> 832px 기준 */
+  left: 0%;
   top: -1.68%; /* -14px -> 832px 기준 */
   background: #355E3D;
 }
@@ -40,20 +41,20 @@
 /* 청소년을 위한 AI 입시 컨설팅 */
 .title1 {
   position: absolute;
-  width: 37.66%; /* 482px -> 1280px 기준 */
+  width: 40%; /* 482px -> 1280px 기준 */
   height: 24.04%; /* 200px -> 832px 기준 */
   left: 11.09%; /* 142px -> 1280px 기준 */
   top: 22.96%; /* 191px -> 832px 기준 */
   font-family: 'Spoqa Han Sans Neo';
   font-style: normal;
   font-weight: 500;
-  font-size: 6.25vw;
+  font-size: 6vw;
   line-height: 7.81vw;
   color: #FFFFFF;
 }
 
 /* mdi:compass-outline */
-.compass-icon1 {
+.compass-outline1 {
   position: absolute;
   width: 55.23%; /* 707px -> 1280px 기준 */
   height: 84.98%; /* 707px -> 832px 기준 */
@@ -61,19 +62,35 @@
   top: 29.09%; /* 242px -> 832px 기준 */
   opacity: 0.2;
 }
+.vector72 {
+  position: absolute;
+  left: 8.33%;
+  right: 8.33%;
+  top: 8.33%;
+  bottom: 8.33%;
+  background: #FFFFFF;
+}
+
+
+/* Vector */
+.vector1 {
+  position: absolute;
+  width: 100%; /* 33px -> 1280px 기준 */
+  height: 100%; /* 33px -> 832px 기준 */
+}
 
 /* AI 입시 컨설팅 설명 */
 .description1 {
   position: absolute;
   width: 33.59%; /* 430px -> 1280px 기준 */
   height: 7.21%; /* 60px -> 832px 기준 */
-  left: 11.09%; /* 142px -> 1280px 기준 */
-  top: 51.68%; /* 430px -> 832px 기준 */
+  left: 11.5%; /* 142px -> 1280px 기준 */
+  top: 54%; /* 430px -> 832px 기준 */
   font-family: 'Spoqa Han Sans Neo';
   font-style: normal;
   font-weight: 400;
-  font-size: 1.88vw;
-  line-height: 3.61vh;
+  font-size: 1.8vw;
+  line-height: 3.61vw;
   color: #FFFFFF;
 }
 
@@ -84,31 +101,64 @@
   height: 1.8%; /* 15px -> 832px 기준 */
   left: 48.75%; /* 624px -> 1280px 기준 */
   top: 89.06%; /* 741px -> 832px 기준 */
-  border: 0.39vh solid #FFFFFF;
+  border: 0.39vw solid #FFFFFF;
 }
 
-/* 로그인, 회원가입 */
-.login1, .signup1 {
+/* mdi:compass-outline (small) */
+.compass-outline-small1 {
   position: absolute;
+  width: 2.58%; /* 33px -> 1280px 기준 */
+  height: 3.97%; /* 33px -> 832px 기준 */
+  left: 10.39%; /* 133px -> 1280px 기준 */
+  top: 2.1%; /* 28px -> 832px 기준 */
+}
+
+/* Canav */
+.canav1 {
+  position: absolute;
+  width: 7.66%; /* 98px -> 1280px 기준 */
+  height: 4.81%; /* 40px -> 832px 기준 */
+  left: 13.28%; /* 170px -> 1280px 기준 */
+  top: 1.1%; /* 25px -> 832px 기준 */
   font-family: 'Spoqa Han Sans Neo';
   font-style: normal;
-  font-weight: 400;
-  font-size: 0.78vw;
-  line-height: 1.56vh;
+  font-weight: 700;
+  font-size: 2.5vw;
+  line-height: 4.81vw;
   text-align: right;
   color: #FFFFFF;
 }
 
-.signup2 {
-  width: 2.89%; /* 37px -> 1280px 기준 */
-  left: 85.31%; /* 1092px -> 1280px 기준 */
-  top: 4.69%; /* 39px -> 832px 기준 */
+/* 회원가입 */
+.signup1 {
+  position: absolute;
+  width: 4%; /* 37px -> 1280px 기준 */
+  height: 1.56%; /* 13px -> 832px 기준 */
+  left: 84.8%; /* 1092px -> 1280px 기준 */
+  top: 3.3%; /* 39px -> 832px 기준 */
+  font-family: 'Spoqa Han Sans Neo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.78vw;
+  line-height: 1.56vw;
+  text-align: right;
+  color: #FFFFFF;
 }
 
-.login2 {
-  width: 2.19%; /* 28px -> 1280px 기준 */
-  left: 80.63%; /* 1032px -> 1280px 기준 */
-  top: 4.69%; /* 39px -> 832px 기준 */
+/* 로그인 */
+.login1 {
+  position: absolute;
+  width: 3%; /* 28px -> 1280px 기준 */
+  height: 1.56%; /* 13px -> 832px 기준 */
+  left: 81%; /* 1032px -> 1280px 기준 */
+  top: 3.4%; /* 39px -> 832px 기준 */
+  font-family: 'Spoqa Han Sans Neo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.78vw;
+  line-height: 1.56vw;
+  text-align: right;
+  color: #FFFFFF;
 }
 
 /* Line 3 */
@@ -120,7 +170,7 @@
   top: 4.57%; /* 38px -> 832px 기준 */
   background: #FFFFFF;
   opacity: 0.5;
-  border: 0.04vh solid #FFFFFF;
+  border: 0.04vw solid #FFFFFF;
   transform: rotate(90deg);
 }
 
@@ -132,22 +182,28 @@
   left: 10.39%; /* 133px -> 1280px 기준 */
   top: 9.13%; /* 76px -> 832px 기준 */
   opacity: 0.5;
-  border: 0.04vh solid #FFFFFF;
+  border: 0.04vw solid #FFFFFF;
+}
+.rectangle-0904 {
+  position: absolute;
+    width: 100%;
+    height: 14.42%;
+    left: 0%;
+    top: 85.58%;
+    background: linear-gradient(180deg, #355E3D 0%, rgba(53, 94, 61, 0.8) 49%, rgba(53, 94, 61, 0) 100%);
 }
 
-/*1-2페이지*/
 /* 개지리노~ */
-.main-container {
+.page-section {
   position: relative;
-  width: 100%;
-  height: 100%;
-  left: 110.94%; /* 1420px -> 1280px 기준 */
-  top: 112.02%; /* 932px -> 832px 기준 */
+  width: 100vw; /* 1280px -> 1280px 기준 */
+  height: 100vh; /* 832px -> 832px 기준 */
+  top: 0%;
   background: #FFFFFF;
 }
 
 /* 질문어쩌구저쩌구 */
-.title-text {
+.question-title {
   position: absolute;
   width: 34.61%; /* 443px -> 1280px 기준 */
   height: 7.57%; /* 63px -> 832px 기준 */
@@ -162,20 +218,20 @@
 }
 
 /* Rectangle 19 */
-.input-box {
-  box-sizing: border-box;
+.rectangle-4 {
   position: absolute;
+  box-sizing: border-box;
   width: 77.81%; /* 996px -> 1280px 기준 */
   height: 66.83%; /* 556px -> 832px 기준 */
   left: 11.09%; /* 142px -> 1280px 기준 */
   top: 18.03%; /* 150px -> 832px 기준 */
   background: #F0F0F0;
-  border: 0.08vh solid rgba(0, 0, 0, 0.15);
+  border: 0.08vw solid rgba(0, 0, 0, 0.15);
   border-radius: 1.8vh;
 }
 
 /* 질문에 대한 답변을 입력해주세요. */
-.placeholder-text1 {
+.answer-placeholder {
   position: absolute;
   width: 21.56%; /* 276px -> 1280px 기준 */
   height: 3.01%; /* 25px -> 832px 기준 */
@@ -193,59 +249,27 @@
 /* 온보딩 페이지 */
 .onboarding-page-2 {
   position: relative;
-  width: 100%;
-  height: 100%;
-  left: 110.94%; /* 1420px -> 1280px 기준 */
-  top: 212.02%; /* 1764px -> 832px 기준 */
+  width: 100%vw; /* 1280px -> 1280px 기준 */
+  height: 100vh; /* 832px -> 832px 기준 */
+  top: 0%;
   background: #FFFFFF;
 }
 
-/* 질문어쩌구저쩌구 */
-.question-title1 {
-  position: absolute;
-  width: 34.61%; /* 443px -> 1280px 기준 */
-  height: 7.57%; /* 63px -> 832px 기준 */
-  left: 11.09%; /* 142px -> 1280px 기준 */
-  top: 5.77%; /* 48px -> 832px 기준 */
-  font-family: 'Spoqa Han Sans Neo';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 3.91vw;
-  line-height: 7.57vh;
-  color: #000000;
-}
-
 /* Rectangle 20 */
-.answer-box1 {
-  box-sizing: border-box;
+.rectangle-5 {
   position: absolute;
+  box-sizing: border-box;
   width: 77.81%; /* 996px -> 1280px 기준 */
   height: 66.83%; /* 556px -> 832px 기준 */
   left: 11.09%; /* 142px -> 1280px 기준 */
   top: 18.15%; /* 151px -> 832px 기준 */
   background: #F0F0F0;
-  border: 0.08vh solid rgba(0, 0, 0, 0.15);
+  border: 0.08vw solid rgba(0, 0, 0, 0.15);
   border-radius: 1.8vh;
 }
 
-/* 질문에 대한 답변을 입력해주세요. */
-.placeholder-text2 {
-  position: absolute;
-  width: 21.56%; /* 276px -> 1280px 기준 */
-  height: 3.01%; /* 25px -> 832px 기준 */
-  left: 13.44%; /* 172px -> 1280px 기준 */
-  top: 21.27%; /* 177px -> 832px 기준 */
-  font-family: 'Spoqa Han Sans Neo';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.56vw;
-  line-height: 3.01vh;
-  color: #000000;
-  opacity: 0.3;
-}
-
 /* Rectangle 21 */
-.temp-save-btn1 {
+.rectangle-6 {
   position: absolute;
   width: 14.06%; /* 180px -> 1280px 기준 */
   height: 5.77%; /* 48px -> 832px 기준 */
@@ -256,11 +280,11 @@
 }
 
 /* 임시저장 */
-.temp-save-text1 {
+.temp-save {
   position: absolute;
-  width: 5.23%; /* 67px -> 1280px 기준 */
+  width: 6%; /* 67px -> 1280px 기준 */
   height: 2.76%; /* 23px -> 832px 기준 */
-  left: 63.28%; /* 810px -> 1280px 기준 */
+  left: 63%; /* 810px -> 1280px 기준 */
   top: 89.9%; /* 748px -> 832px 기준 */
   font-family: 'Spoqa Han Sans Neo';
   font-style: normal;
@@ -272,7 +296,7 @@
 }
 
 /* Rectangle 22 */
-.submit-btn1 {
+.rectangle-7 {
   position: absolute;
   width: 14.06%; /* 180px -> 1280px 기준 */
   height: 5.77%; /* 48px -> 832px 기준 */
@@ -283,11 +307,11 @@
 }
 
 /* 제출하기 */
-.submit-text1 {
+.submit {
   position: absolute;
-  width: 5.23%; /* 67px -> 1280px 기준 */
+  width: 6%; /* 67px -> 1280px 기준 */
   height: 2.76%; /* 23px -> 832px 기준 */
-  left: 79.22%; /* 1014px -> 1280px 기준 */
+  left: 79%; /* 1014px -> 1280px 기준 */
   top: 89.9%; /* 748px -> 832px 기준 */
   font-family: 'Spoqa Han Sans Neo';
   font-style: normal;
@@ -298,42 +322,51 @@
   color: #FFFFFF;
 }
 
-/*2-1페이지*/
-/* 온보딩 페이지 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 2-1페이지 */
 .onboarding-page-3 {
   position: relative;
-  width: 100%;
-  height: 100%;
-  left: 214.06%; /* 2740px -> 1280px 기준 */
-  top: 12.02%; /* 100px -> 832px 기준 */
+  width: 100vw; /* 1280px -> 1280px 기준 */
+  height: 100vh; /* 832px -> 832px 기준 */
   background: #FFFFFF;
 }
 
 /* Group 7 */
-.group-8 {
+.group-0830 {
   position: absolute;
-  width: 100%;
-  height: 101.68%; /* 846px -> 832px 기준 */
-  left: 0;
-  top: -1.68%; /* -14px -> 832px 기준 */
+  width: 100vw; /* 1280px -> 1280px 기준 */
+  height: 100vh; /* 846px -> 832px 기준 */
 }
 
 /* Rectangle 14 */
-.rectangle-3 {
+.rectangle-8 {
   position: absolute;
-  width: 100%;
+  width: 100%; /* 1280px -> 1280px 기준 */
   height: 14.42%; /* 120px -> 832px 기준 */
-  left: 0;
+  left: 0%;
   top: 85.58%; /* 712px -> 832px 기준 */
   background: linear-gradient(180deg, #355E3D 0%, rgba(53, 94, 61, 0.8) 49%, rgba(53, 94, 61, 0) 100%);
 }
 
 /* Rectangle 15 */
-.rectangle-4 {
+.rectangle-9 {
   position: absolute;
-  width: 100%;
+  width: 100%; /* 1280px -> 1280px 기준 */
   height: 87.26%; /* 726px -> 832px 기준 */
-  left: 0;
+  left: 0%;
   top: -1.68%; /* -14px -> 832px 기준 */
   background: #355E3D;
 }
@@ -341,14 +374,14 @@
 /* 청소년을 위한 AI 진로 컨설팅 */
 .title2 {
   position: absolute;
-  width: 37.66%; /* 482px -> 1280px 기준 */
+  width: 40%; /* 482px -> 1280px 기준 */
   height: 24.04%; /* 200px -> 832px 기준 */
   left: 11.09%; /* 142px -> 1280px 기준 */
   top: 22.96%; /* 191px -> 832px 기준 */
   font-family: 'Spoqa Han Sans Neo';
   font-style: normal;
   font-weight: 500;
-  font-size: 6.25vw;
+  font-size: 6vw;
   line-height: 7.81vw;
   color: #FFFFFF;
 }
@@ -359,7 +392,7 @@
   width: 32.26%; /* 413px -> 1280px 기준 */
   height: 7.21%; /* 60px -> 832px 기준 */
   left: 11.09%; /* 142px -> 1280px 기준 */
-  top: 51.68%; /* 430px -> 832px 기준 */
+  top: 54%; /* 430px -> 832px 기준 */
   font-family: 'Spoqa Han Sans Neo';
   font-style: normal;
   font-weight: 400;
@@ -368,18 +401,18 @@
   color: #FFFFFF;
 }
 
-/* Vector 1 */
-.vector4 {
+/* Vector 1 밑으로 내려가는 화살표*/
+.vector1982 {
   position: absolute;
   width: 2.42%; /* 31px -> 1280px 기준 */
   height: 1.8%; /* 15px -> 832px 기준 */
   left: 48.75%; /* 624px -> 1280px 기준 */
-  top: 89.06%; /* 741px -> 832px 기준 */
+  top: 92%; /* 741px -> 832px 기준 */
   border: 0.6vh solid #FFFFFF;
 }
 
-/* mdi:compass-outline */
-.compass-icon2 {
+/* Small mdi:compass-outline */
+.compass-outline {
   position: absolute;
   width: 2.58%; /* 33px -> 1280px 기준 */
   height: 3.97%; /* 33px -> 832px 기준 */
@@ -388,7 +421,7 @@
 }
 
 /* Vector */
-.vector5 {
+.vector4 {
   position: absolute;
   left: 8.33%;
   right: 8.33%;
@@ -398,7 +431,7 @@
 }
 
 /* Canav */
-.logo {
+.canav2 {
   position: absolute;
   width: 7.66%; /* 98px -> 1280px 기준 */
   height: 4.81%; /* 40px -> 832px 기준 */
@@ -416,10 +449,10 @@
 /* 회원가입 */
 .signup3 {
   position: absolute;
-  width: 2.89%; /* 37px -> 1280px 기준 */
+  width: 4%; /* 37px -> 1280px 기준 */
   height: 1.56%; /* 13px -> 832px 기준 */
-  left: 85.31%; /* 1092px -> 1280px 기준 */
-  top: 4.69%; /* 39px -> 832px 기준 */
+  left: 84.6%; /* 1092px -> 1280px 기준 */
+  top: 5.1%; /* 39px -> 832px 기준 */
   font-family: 'Spoqa Han Sans Neo';
   font-style: normal;
   font-weight: 400;
@@ -432,10 +465,10 @@
 /* 로그인 */
 .login3 {
   position: absolute;
-  width: 2.19%; /* 28px -> 1280px 기준 */
+  width: 3%; /* 28px -> 1280px 기준 */
   height: 1.56%; /* 13px -> 832px 기준 */
-  left: 80.63%; /* 1032px -> 1280px 기준 */
-  top: 4.69%; /* 39px -> 832px 기준 */
+  left: 80.62%; /* 1032px -> 1280px 기준 */
+  top: 5.2%; /* 39px -> 832px 기준 */
   font-family: 'Spoqa Han Sans Neo';
   font-style: normal;
   font-weight: 400;
@@ -470,7 +503,7 @@
 }
 
 /* Large mdi:compass-outline */
-.large-compass-icon3 {
+.large-compass-outline {
   position: absolute;
   width: 55.23%; /* 707px -> 1280px 기준 */
   height: 84.98%; /* 707px -> 832px 기준 */
@@ -478,15 +511,73 @@
   top: 29.09%; /* 242px -> 832px 기준 */
   opacity: 0.2;
 }
+.vector73 {
+  position: absolute;
+  left: 8.33%;
+  right: 8.33%;
+  top: 8.33%;
+  bottom: 8.33%;
+  background: #FFFFFF;
+}
 
-/*2-2페이지*/
-/* 온보딩 페이지 */
+/* 2-2페이지 */
 .onboarding-page-4 {
   position: relative;
-  width: 100%;
-  height: 100%;
-  left: 214.06%; /* 2740px -> 1280px 기준 */
-  top: 112.02%; /* 932px -> 832px 기준 */
+  width: 100vw;
+  height: 100vh;
+  background: #FFFFFF;
+}
+
+/* 질문 제목 */
+.question-title2 {
+  position: absolute;
+  width: 34.61%; /* 443px -> 1280px 기준 */
+  height: 7.57%; /* 63px -> 832px 기준 */
+  left: 11.09%; /* 142px -> 1280px 기준 */
+  top: 5.65%; /* 47px -> 832px 기준 */
+  font-family: 'Spoqa Han Sans Neo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.91vw;
+  line-height: 7.57vh;
+  color: #000000;
+}
+
+/* 답변 박스 */
+.answer-box2 {
+  position: absolute;
+  box-sizing: border-box;
+  width: 77.81%; /* 996px -> 1280px 기준 */
+  height: 66.83%; /* 556px -> 832px 기준 */
+  left: 11.09%; /* 142px -> 1280px 기준 */
+  top: 18.03%; /* 150px -> 832px 기준 */
+  background: #F0F0F0;
+  border: 0.08vh solid rgba(0, 0, 0, 0.15);
+  border-radius: 1.8vh;
+}
+
+/* 답변 입력 안내 텍스트 */
+.placeholder-text3 {
+  position: absolute;
+  width: 21.56%; /* 276px -> 1280px 기준 */
+  height: 3.01%; /* 25px -> 832px 기준 */
+  left: 13.44%; /* 172px -> 1280px 기준 */
+  top: 21.15%; /* 176px -> 832px 기준 */
+  font-family: 'Spoqa Han Sans Neo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.56vw;
+  line-height: 3.01vh;
+  color: #000000;
+  opacity: 0.3;
+}
+
+
+/* 2-3페이지 */
+.onboarding-page-5 {
+  position: relative;
+  width: 100%; /* 1280px -> 1280px 기준 */
+  height: 100%; /* 832px -> 832px 기준 */
   background: #FFFFFF;
 }
 
@@ -507,8 +598,8 @@
 
 /* Rectangle 19 */
 .answer-box2 {
-  box-sizing: border-box;
   position: absolute;
+  box-sizing: border-box;
   width: 77.81%; /* 996px -> 1280px 기준 */
   height: 66.83%; /* 556px -> 832px 기준 */
   left: 11.09%; /* 142px -> 1280px 기준 */
@@ -519,7 +610,7 @@
 }
 
 /* 질문에 대한 답변을 입력해주세요. */
-.placeholder-text3 {
+.placeholder-text4 {
   position: absolute;
   width: 21.56%; /* 276px -> 1280px 기준 */
   height: 3.01%; /* 25px -> 832px 기준 */
@@ -534,62 +625,7 @@
   opacity: 0.3;
 }
 
-/*2-3페이지*/
-/* 온보딩 페이지 */
-.onboarding-page-5 {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  left: 214.06%; /* 2740px -> 1280px 기준 */
-  top: 212.02%; /* 1764px -> 832px 기준 */
-  background: #FFFFFF;
-}
-
-/* 질문어쩌구저쩌구 */
-.question-title3 {
-  position: absolute;
-  width: 34.61%; /* 443px -> 1280px 기준 */
-  height: 7.57%; /* 63px -> 832px 기준 */
-  left: 11.09%; /* 142px -> 1280px 기준 */
-  top: 5.77%; /* 48px -> 832px 기준 */
-  font-family: 'Spoqa Han Sans Neo';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 3.91vw;
-  line-height: 7.57vh;
-  color: #000000;
-}
-
-/* Rectangle 20 */
-.answer-box3 {
-  box-sizing: border-box;
-  position: absolute;
-  width: 77.81%; /* 996px -> 1280px 기준 */
-  height: 66.83%; /* 556px -> 832px 기준 */
-  left: 11.09%; /* 142px -> 1280px 기준 */
-  top: 18.15%; /* 151px -> 832px 기준 */
-  background: #F0F0F0;
-  border: 0.08vh solid rgba(0, 0, 0, 0.15);
-  border-radius: 1.8vh;
-}
-
-/* 질문에 대한 답변을 입력해주세요. */
-.placeholder-text4 {
-  position: absolute;
-  width: 21.56%; /* 276px -> 1280px 기준 */
-  height: 3.01%; /* 25px -> 832px 기준 */
-  left: 13.44%; /* 172px -> 1280px 기준 */
-  top: 21.27%; /* 177px -> 832px 기준 */
-  font-family: 'Spoqa Han Sans Neo';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.56vw;
-  line-height: 3.01vh;
-  color: #000000;
-  opacity: 0.3;
-}
-
-/* Rectangle 21 */
+/* 임시저장 버튼 */
 .temp-save-btn2 {
   position: absolute;
   width: 14.06%; /* 180px -> 1280px 기준 */
@@ -600,7 +636,7 @@
   border-radius: 0.6vh;
 }
 
-/* 임시저장 */
+/* 임시저장 텍스트 */
 .temp-save-text2 {
   position: absolute;
   width: 5.23%; /* 67px -> 1280px 기준 */
@@ -616,7 +652,7 @@
   color: #FFFFFF;
 }
 
-/* Rectangle 22 */
+/* 제출 버튼 */
 .submit-btn2 {
   position: absolute;
   width: 14.06%; /* 180px -> 1280px 기준 */
@@ -627,7 +663,7 @@
   border-radius: 0.6vh;
 }
 
-/* 제출하기 */
+/* 제출 텍스트 */
 .submit-text2 {
   position: absolute;
   width: 5.23%; /* 67px -> 1280px 기준 */
@@ -642,68 +678,71 @@
   text-align: center;
   color: #FFFFFF;
 }
+
+
+
+
+
+
+
 /*3-1페이지*/
 /* 온보딩 페이지 */
-.onboarding-page-6 {
+.onboarding-page-61 {
   position: relative;
-  width: 100%;
-  height: 100%;
-  left: 317.19%; /* 4060px -> 1280px 기준 */
-  top: 12.02%; /* 100px -> 832px 기준 */
+  width: 100vw;
+  height: 100vh;
   background: #FFFFFF;
 }
 
 /* Group 7 */
-.group-9 {
+.group-901 {
   position: absolute;
-  width: 100%;
-  height: 101.68%; /* 846px -> 832px 기준 */
-  left: 0;
-  top: -1.68%; /* -14px -> 832px 기준 */
+  width: 100vw;
+  height: 100vh;
 }
 
 /* Rectangle 14 */
-.rectangle-5 {
+.rectangle-51 {
   position: absolute;
-  width: 100%;
+  width: 100%; /* 1280px -> 1280px 기준 */
   height: 14.42%; /* 120px -> 832px 기준 */
-  left: 0;
+  left: 0%;
   top: 85.58%; /* 712px -> 832px 기준 */
   background: linear-gradient(180deg, #355E3D 0%, rgba(53, 94, 61, 0.8) 49%, rgba(53, 94, 61, 0) 100%);
 }
 
 /* Rectangle 15 */
-.rectangle-6 {
+.rectangle-61 {
   position: absolute;
-  width: 100%;
+  width: 100%; /* 1280px -> 1280px 기준 */
   height: 87.26%; /* 726px -> 832px 기준 */
-  left: 0;
+  left: 0%;
   top: -1.68%; /* -14px -> 832px 기준 */
   background: #355E3D;
 }
 
 /* 대학생을 위한 AI 취업 컨설팅 */
-.title3 {
+.title31 {
   position: absolute;
-  width: 37.66%; /* 482px -> 1280px 기준 */
+  width: 40%; /* 482px -> 1280px 기준 */
   height: 24.04%; /* 200px -> 832px 기준 */
   left: 11.09%; /* 142px -> 1280px 기준 */
   top: 22.96%; /* 191px -> 832px 기준 */
   font-family: 'Spoqa Han Sans Neo';
   font-style: normal;
   font-weight: 500;
-  font-size: 6.25vw;
+  font-size: 6vw;
   line-height: 7.81vw;
   color: #FFFFFF;
 }
 
 /* AI 취업 컨설팅 설명 */
-.description3 {
+.description31 {
   position: absolute;
   width: 32.26%; /* 413px -> 1280px 기준 */
   height: 7.21%; /* 60px -> 832px 기준 */
   left: 11.09%; /* 142px -> 1280px 기준 */
-  top: 51.68%; /* 430px -> 832px 기준 */
+  top: 55%; /* 430px -> 832px 기준 */
   font-family: 'Spoqa Han Sans Neo';
   font-style: normal;
   font-weight: 400;
@@ -713,7 +752,7 @@
 }
 
 /* Vector 1 */
-.vector6 {
+.vector61 {
   position: absolute;
   width: 2.42%; /* 31px -> 1280px 기준 */
   height: 1.8%; /* 15px -> 832px 기준 */
@@ -722,8 +761,8 @@
   border: 0.6vh solid #FFFFFF;
 }
 
-/* mdi:compass-outline */
-.compass-icon4 {
+/* Small mdi:compass-outline */
+.compass-outline21 {
   position: absolute;
   width: 2.58%; /* 33px -> 1280px 기준 */
   height: 3.97%; /* 33px -> 832px 기준 */
@@ -732,7 +771,7 @@
 }
 
 /* Vector */
-.vector7 {
+.vector71 {
   position: absolute;
   left: 8.33%;
   right: 8.33%;
@@ -742,7 +781,7 @@
 }
 
 /* Canav */
-.logo {
+.canav31 {
   position: absolute;
   width: 7.66%; /* 98px -> 1280px 기준 */
   height: 4.81%; /* 40px -> 832px 기준 */
@@ -757,51 +796,8 @@
   color: #FFFFFF;
 }
 
-/* Line 4 */
-.line-5 {
-  position: absolute;
-  width: 78.52%; /* 1005px -> 1280px 기준 */
-  height: 0;
-  left: 10.39%; /* 133px -> 1280px 기준 */
-  top: 9.13%; /* 76px -> 832px 기준 */
-  opacity: 0.5;
-  border: 0.06vh solid #FFFFFF;
-}
-
-/* 회원가입 */
-.signup4 {
-  position: absolute;
-  width: 2.89%; /* 37px -> 1280px 기준 */
-  height: 1.56%; /* 13px -> 832px 기준 */
-  left: 85.31%; /* 1092px -> 1280px 기준 */
-  top: 4.69%; /* 39px -> 832px 기준 */
-  font-family: 'Spoqa Han Sans Neo';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.78vw;
-  line-height: 1.56vh;
-  text-align: right;
-  color: #FFFFFF;
-}
-
-/* 로그인 */
-.login4 {
-  position: absolute;
-  width: 2.19%; /* 28px -> 1280px 기준 */
-  height: 1.56%; /* 13px -> 832px 기준 */
-  left: 80.63%; /* 1032px -> 1280px 기준 */
-  top: 4.69%; /* 39px -> 832px 기준 */
-  font-family: 'Spoqa Han Sans Neo';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.78vw;
-  line-height: 1.56vh;
-  text-align: right;
-  color: #FFFFFF;
-}
-
 /* Line 3 */
-.line-6 {
+.line-51 {
   position: absolute;
   width: 1.25%; /* 16px -> 1280px 기준 */
   height: 0;
@@ -813,8 +809,19 @@
   transform: rotate(90deg);
 }
 
+/* Line 4 */
+.line-61 {
+  position: absolute;
+  width: 78.52%; /* 1005px -> 1280px 기준 */
+  height: 0;
+  left: 10.39%; /* 133px -> 1280px 기준 */
+  top: 9.13%; /* 76px -> 832px 기준 */
+  opacity: 0.5;
+  border: 0.06vh solid #FFFFFF;
+}
+
 /* Large mdi:compass-outline */
-.large-compass-icon5 {
+.large-compass-outline21 {
   position: absolute;
   width: 55.23%; /* 707px -> 1280px 기준 */
   height: 84.98%; /* 707px -> 832px 기준 */
@@ -822,20 +829,101 @@
   top: 29.09%; /* 242px -> 832px 기준 */
   opacity: 0.2;
 }
+.signup5 {
+  position: absolute;
+  width: 4%; /* 37px -> 1280px 기준 */
+  height: 1.56%; /* 13px -> 832px 기준 */
+  left: 84.6%; /* 1092px -> 1280px 기준 */
+  top:  4%; /* 39px -> 832px 기준 */
+  font-family: 'Spoqa Han Sans Neo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.78vw;
+  line-height: 1.56vh;
+  text-align: right;
+  color: #FFFFFF;
+}
 
-/*3-2페이지*/
-/* 온보딩 페이지 */
-.onboarding-page-7 {
+/* 로그인 */
+.login5 {
+  position: absolute;
+  width: 3%; /* 28px -> 1280px 기준 */
+  height: 1.56%; /* 13px -> 832px 기준 */
+  left: 81.1%; /* 1032px -> 1280px 기준 */
+  top: 4%; /* 39px -> 832px 기준 */
+  font-family: 'Spoqa Han Sans Neo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.78vw;
+  line-height: 1.56vh;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+/* 3-2페이지 */
+.onboarding-page-71 {
   position: relative;
-  width: 100%;
-  height: 100%;
-  left: 317.19%; /* 4060px -> 1280px 기준 */
-  top: 112.02%; /* 932px -> 832px 기준 */
+  width: 100vw; /* 1280px 기준 */
+  height: 100vh; /* 832px 기준 */
   background: #FFFFFF;
 }
 
-/* 질문어쩌구저쩌구 */
-.question-title3 {
+
+/* 질문 제목 */
+.question-title31 {
+  position: absolute;
+  width: 34.61%; /* 443px -> 1280px 기준 */
+  height: 7.57%; /* 63px -> 832px 기준 */
+  left: 11.09%; /* 142px -> 1280px 기준 */
+  top: 5.65%; /* 47px -> 832px 기준 */
+  font-family: 'Spoqa Han Sans Neo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.91vw; /* 50px -> 1280px 기준 */
+  line-height: 7.57vh; /* 63px -> 832px 기준 */
+  color: #000000;
+}
+
+/* Rectangle 19 */
+.answer-box41 {
+  position: absolute;
+  box-sizing: border-box;
+  width: 77.81%; /* 996px -> 1280px 기준 */
+  height: 66.83%; /* 556px -> 832px 기준 */
+  left: 11.09%; /* 142px -> 1280px 기준 */
+  top: 18.03%; /* 150px -> 832px 기준 */
+  background: #F0F0F0;
+  border: 0.08vw solid rgba(0, 0, 0, 0.15); /* 1px -> 1280px 기준 */
+  border-radius: 1.8vh; /* 15px -> 832px 기준 */
+}
+
+/* 질문에 대한 답변을 입력해주세요 */
+.placeholder-text51 {
+  position: absolute;
+  width: 21.56%; /* 276px -> 1280px 기준 */
+  height: 3.01%; /* 25px -> 832px 기준 */
+  left: 13.44%; /* 172px -> 1280px 기준 */
+  top: 21.15%; /* 176px -> 832px 기준 */
+  font-family: 'Spoqa Han Sans Neo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.56vw; /* 20px -> 1280px 기준 */
+  line-height: 3.01vh; /* 25px -> 832px 기준 */
+  color: #000000;
+  opacity: 0.3;
+}
+
+/*3-3페이지*/
+.onboarding-page-81 {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: #FFFFFF;
+}
+
+
+/* 질문 제목 */
+.question-title41 {
   position: absolute;
   width: 34.61%; /* 443px -> 1280px 기준 */
   height: 7.57%; /* 63px -> 832px 기준 */
@@ -849,21 +937,21 @@
   color: #000000;
 }
 
-/* Rectangle 19 */
-.answer-box4 {
-  box-sizing: border-box;
+/* 답변 박스 */
+.answer-box51 {
   position: absolute;
+  box-sizing: border-box;
   width: 77.81%; /* 996px -> 1280px 기준 */
   height: 66.83%; /* 556px -> 832px 기준 */
   left: 11.09%; /* 142px -> 1280px 기준 */
   top: 18.03%; /* 150px -> 832px 기준 */
   background: #F0F0F0;
-  border: 0.08vh solid rgba(0, 0, 0, 0.15);
-  border-radius: 1.8vh;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
 }
 
-/* 질문에 대한 답변을 입력해주세요. */
-.placeholder-text5 {
+/* 답변 입력 안내 텍스트 */
+.placeholder-text61 {
   position: absolute;
   width: 21.56%; /* 276px -> 1280px 기준 */
   height: 3.01%; /* 25px -> 832px 기준 */
@@ -878,64 +966,8 @@
   opacity: 0.3;
 }
 
-
-/*3-3페이지*/
-/* 온보딩 페이지 */
-.onboarding-page-8 {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  left: 317.19%; /* 4060px -> 1280px 기준 */
-  top: 212.02%; /* 1764px -> 832px 기준 */
-  background: #FFFFFF;
-}
-
-/* 질문어쩌구저쩌구 */
-.question-title4 {
-  position: absolute;
-  width: 34.61%; /* 443px -> 1280px 기준 */
-  height: 7.57%; /* 63px -> 832px 기준 */
-  left: 11.09%; /* 142px -> 1280px 기준 */
-  top: 5.77%; /* 48px -> 832px 기준 */
-  font-family: 'Spoqa Han Sans Neo';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 3.91vw;
-  line-height: 7.57vh;
-  color: #000000;
-}
-
-/* Rectangle 20 */
-.answer-box5 {
-  box-sizing: border-box;
-  position: absolute;
-  width: 77.81%; /* 996px -> 1280px 기준 */
-  height: 66.83%; /* 556px -> 832px 기준 */
-  left: 11.09%; /* 142px -> 1280px 기준 */
-  top: 18.15%; /* 151px -> 832px 기준 */
-  background: #F0F0F0;
-  border: 0.08vh solid rgba(0, 0, 0, 0.15);
-  border-radius: 1.8vh;
-}
-
-/* 질문에 대한 답변을 입력해주세요. */
-.placeholder-text6 {
-  position: absolute;
-  width: 21.56%; /* 276px -> 1280px 기준 */
-  height: 3.01%; /* 25px -> 832px 기준 */
-  left: 13.44%; /* 172px -> 1280px 기준 */
-  top: 21.27%; /* 177px -> 832px 기준 */
-  font-family: 'Spoqa Han Sans Neo';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.56vw;
-  line-height: 3.01vh;
-  color: #000000;
-  opacity: 0.3;
-}
-
-/* Rectangle 21 */
-.temp-save-btn3 {
+/* 임시저장 버튼 */
+.temp-save-btn31 {
   position: absolute;
   width: 14.06%; /* 180px -> 1280px 기준 */
   height: 5.77%; /* 48px -> 832px 기준 */
@@ -945,13 +977,13 @@
   border-radius: 0.6vh;
 }
 
-/* 임시저장 */
-.temp-save-text3 {
+/* 임시저장 텍스트 */
+.temp-save-text31 {
   position: absolute;
-  width: 5.23%; /* 67px -> 1280px 기준 */
+  width: 40.5%; /* 67px -> 1280px 기준 */
   height: 2.76%; /* 23px -> 832px 기준 */
-  left: 63.28%; /* 810px -> 1280px 기준 */
-  top: 89.9%; /* 748px -> 832px 기준 */
+  left: 30%; /* 810px -> 1280px 기준 */
+  top: 28%; /* 748px -> 832px 기준 */
   font-family: 'Spoqa Han Sans Neo';
   font-style: normal;
   font-weight: 700;
@@ -961,8 +993,8 @@
   color: #FFFFFF;
 }
 
-/* Rectangle 22 */
-.submit-btn3 {
+/* 제출 버튼 */
+.submit-btn31 {
   position: absolute;
   width: 14.06%; /* 180px -> 1280px 기준 */
   height: 5.77%; /* 48px -> 832px 기준 */
@@ -972,12 +1004,12 @@
   border-radius: 0.6vh;
 }
 
-/* 제출하기 */
-.submit-text3 {
+/* 제출 텍스트 */
+.submit-text31 {
   position: absolute;
-  width: 5.23%; /* 67px -> 1280px 기준 */
+  width: 6%; /* 67px -> 1280px 기준 */
   height: 2.76%; /* 23px -> 832px 기준 */
-  left: 79.22%; /* 1014px -> 1280px 기준 */
+  left: 78.9%; /* 1014px -> 1280px 기준 */
   top: 89.9%; /* 748px -> 832px 기준 */
   font-family: 'Spoqa Han Sans Neo';
   font-style: normal;
@@ -987,3 +1019,4 @@
   text-align: center;
   color: #FFFFFF;
 }
+

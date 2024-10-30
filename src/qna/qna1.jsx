@@ -17,54 +17,54 @@ function App() {
     setAnswerBoxAnswer(event.target.value);
   };
 
+  
+
   return (
-    <html>
-      {/* 첫 번째 온보딩 페이지 */}
-      <div className="onboarding-page-1">
-        <div className="rectangle-2"></div> {/*그라데이션추가*/}
-        <div className="title1">청소년을 위한 AI 입시 컨설팅</div>
-        <div className="compass-icon1"></div>
-        <div className="vector1"></div>
-        <div className="description1">AI 입시 컨설팅 설명</div>
-        <div className="vector2"></div>
-        <div className="signup2">회원가입</div>
-        <div className="login2">로그인</div>
-        <div className="line-1"></div>
-        <div className="line-2"></div>
-      </div>
+    <div>
+      <div className="page">
+        {/* 온보딩 페이지 1 */}
+        <div className="onboarding-page1">
+          <div className="group-0903">
+            <div className="rectangle-2"></div>
+            <div className="rectangle-3"></div>
+            <div className="title1">청소년을 위한 AI 입시 컨설팅</div>
+            <div className="compass-outline1">
+              <div className="vector72"></div>
+            </div>
+            <div className="vector1"></div>
+            <div className="description1">AI 입시 컨설팅 설명</div>
+            <div className="vector2"></div>
+            <div className="compass-outline-small1">
+              <div className="vector1"></div>
+            </div>
+            <div className="canav1">Canav</div>
+            <div className="signup1">회원가입</div>
+            <div className="login1">로그인</div>
+            <div className="line-1"></div>
+            <div className="line-2"></div>
+            <div className="rectangle-0904"></div>
+          </div>
+        </div>
 
-      {/* 질문 페이지 */}
-      <div className="main-container">
-        <div className="title-text">질문어쩌구저쩌구</div>
-        <div className="input-box">
-          <textarea
-            className="placeholder-text1"
-            value={inputAnswer}
-            onChange={handleInputChange}
-            placeholder="질문에 대한 답변을 입력해주세요."
-          />
+        {/* 개지리노~ 페이지 섹션 */}
+        <div className="page-section">
+          <div className="question-title">1.질문어쩌구저쩌구</div>
+          <div className="rectangle-4"></div>
+          <div className="answer-placeholder">질문에 대한 답변을 입력해주세요.</div>
         </div>
-      </div>
 
-      {/* 두 번째 온보딩 페이지 */}
-      <div className="onboarding-page-2">
-        <div className="question-title1">질문어쩌구저쩌구</div>
-        <div className="answer-box1">
-          <textarea
-            className="placeholder-text2"
-            value={answerBoxAnswer}
-            onChange={handleAnswerBoxChange}
-            placeholder="질문에 대한 답변을 입력해주세요."
-          />
-        </div>
-        <div className="temp-save-btn1">
-          <div className="temp-save-text1">임시저장</div>
-        </div>
-        <div className="submit-btn1">
-          <div className="submit-text1">제출하기</div>
+        {/* 온보딩 페이지 2 */}
+        <div className="onboarding-page-2">
+          <div className="question-title">2.질문어쩌구저쩌구</div>
+          <div className="rectangle-5"></div>
+          <div className="answer-placeholder">질문에 대한 답변을 입력해주세요.</div>
+          <div className="rectangle-6"></div>
+          <div className="temp-save">임시저장</div>
+          <div className="rectangle-7"></div>
+          <div className="submit">제출하기</div>
         </div>
       </div>
-    </html>
+    </div>
   );
 }
 
