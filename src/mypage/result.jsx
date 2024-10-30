@@ -50,7 +50,7 @@ const OnboardingPage = () => {
           <div className="review-text3">내가 뭐라고 했더라 내가 뭐라고 했지</div>
         </div>
         <div className="icon"></div>
-        <div className="cavav">Cavav</div>
+        <div className="cavav">Canav</div>
       </div>
     </div>
   );
