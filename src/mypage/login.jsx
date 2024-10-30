@@ -3,7 +3,7 @@ import './login.css';
 
 const OnboardingPage=()=> {
   return (
-    <div className="onboarding-page-2">
+    <div className="onboarding-page">
       {/* 초록색 배경 */}
       <div className="rectangle-24" />
 
